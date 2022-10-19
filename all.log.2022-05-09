@@ -1,0 +1,46 @@
+2022-05-08 17:11:02,238 - _internal.py - INFO -  * Restarting with stat
+2022-05-08 17:11:14,352 - _internal.py - WARNING -  * Debugger is active!
+2022-05-08 17:11:14,361 - _internal.py - INFO -  * Debugger PIN: 686-855-409
+2022-05-08 17:11:14,773 - _internal.py - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-05-08 17:11:17,163 - _internal.py - INFO - 127.0.0.1 - - [08/May/2022 17:11:17] "GET / HTTP/1.1" 200 -
+2022-05-08 17:11:17,179 - _internal.py - INFO - 127.0.0.1 - - [08/May/2022 17:11:17] "GET /static/css/app.f9dea87b.css HTTP/1.1" 200 -
+2022-05-08 17:11:17,182 - _internal.py - INFO - 127.0.0.1 - - [08/May/2022 17:11:17] "GET /static/css/chunk-libs.3dfb7769.css HTTP/1.1" 200 -
+2022-05-08 17:11:17,182 - _internal.py - INFO - 127.0.0.1 - - [08/May/2022 17:11:17] "GET /static/js/app.9689aa72.js HTTP/1.1" 200 -
+2022-05-08 17:11:17,200 - _internal.py - INFO - 127.0.0.1 - - [08/May/2022 17:11:17] "GET /static/js/chunk-libs.a8b242f7.js HTTP/1.1" 200 -
+2022-05-08 17:11:17,200 - _internal.py - INFO - 127.0.0.1 - - [08/May/2022 17:11:17] "GET /static/js/chunk-elementUI.264d21be.js HTTP/1.1" 200 -
+2022-05-08 17:11:17,391 - _internal.py - INFO - 127.0.0.1 - - [08/May/2022 17:11:17] "GET /static/css/chunk-6ec7c010.6874bb5f.css HTTP/1.1" 200 -
+2022-05-08 17:11:17,391 - _internal.py - INFO - 127.0.0.1 - - [08/May/2022 17:11:17] "GET /static/js/chunk-6ec7c010.4a310bd5.js HTTP/1.1" 200 -
+2022-05-08 17:11:17,436 - _internal.py - INFO - 127.0.0.1 - - [08/May/2022 17:11:17] "GET /favicon.ico HTTP/1.1" 200 -
+2022-05-08 17:11:18,746 - _internal.py - INFO - 127.0.0.1 - - [08/May/2022 17:11:18] "GET /static/fonts/element-icons.535877f5.woff HTTP/1.1" 200 -
+2022-05-08 17:11:18,843 - _internal.py - INFO - 127.0.0.1 - - [08/May/2022 17:11:18] "GET /static/css/chunk-15a7d050.b972bb9f.css HTTP/1.1" 200 -
+2022-05-08 17:11:18,844 - _internal.py - INFO - 127.0.0.1 - - [08/May/2022 17:11:18] "GET /static/js/chunk-9e9c9b90.5c5cdf13.js HTTP/1.1" 200 -
+2022-05-08 17:11:18,845 - _internal.py - INFO - 127.0.0.1 - - [08/May/2022 17:11:18] "GET /static/js/chunk-15a7d050.6a9e6db9.js HTTP/1.1" 200 -
+2022-05-08 17:11:18,977 - _internal.py - INFO - 127.0.0.1 - - [08/May/2022 17:11:18] "GET /static/js/chunk-107fdb58.bb729d73.js HTTP/1.1" 200 -
+2022-05-08 17:11:18,983 - _internal.py - INFO - 127.0.0.1 - - [08/May/2022 17:11:18] "[33mGET /static/pictures/bjtu.jpeg?imageView2/1/w/80/h/80 HTTP/1.1[0m" 404 -
+2022-05-08 17:11:18,986 - _internal.py - INFO - 127.0.0.1 - - [08/May/2022 17:11:18] "GET /getBarChart?currentApp=网易云&strId= HTTP/1.1" 200 -
+2022-05-08 17:11:18,989 - _internal.py - INFO - 127.0.0.1 - - [08/May/2022 17:11:18] "GET /getRateChart?currentApp=网易云&strId= HTTP/1.1" 200 -
+2022-05-08 17:11:19,040 - _internal.py - INFO - 127.0.0.1 - - [08/May/2022 17:11:19] "[35m[1mGET /getRelChart?currentApp=网易云&strId= HTTP/1.1[0m" 500 -
+2022-05-08 17:11:19,094 - _internal.py - INFO - 127.0.0.1 - - [08/May/2022 17:11:19] "GET /wordCloud?currentApp=网易云&strId= HTTP/1.1" 200 -
+2022-05-09 13:00:05,962 - _internal.py - INFO -  * Restarting with stat
+2022-05-09 13:00:17,920 - _internal.py - WARNING -  * Debugger is active!
+2022-05-09 13:00:17,928 - _internal.py - INFO -  * Debugger PIN: 686-855-409
+2022-05-09 13:00:18,284 - _internal.py - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-05-09 13:00:32,400 - _internal.py - INFO - 127.0.0.1 - - [09/May/2022 13:00:32] "GET / HTTP/1.1" 200 -
+2022-05-09 13:00:32,418 - _internal.py - INFO - 127.0.0.1 - - [09/May/2022 13:00:32] "GET /static/css/app.f9dea87b.css HTTP/1.1" 200 -
+2022-05-09 13:00:32,420 - _internal.py - INFO - 127.0.0.1 - - [09/May/2022 13:00:32] "GET /static/css/chunk-libs.3dfb7769.css HTTP/1.1" 200 -
+2022-05-09 13:00:32,423 - _internal.py - INFO - 127.0.0.1 - - [09/May/2022 13:00:32] "GET /static/js/app.9689aa72.js HTTP/1.1" 200 -
+2022-05-09 13:00:32,424 - _internal.py - INFO - 127.0.0.1 - - [09/May/2022 13:00:32] "GET /static/js/chunk-elementUI.264d21be.js HTTP/1.1" 200 -
+2022-05-09 13:00:32,425 - _internal.py - INFO - 127.0.0.1 - - [09/May/2022 13:00:32] "GET /static/js/chunk-libs.a8b242f7.js HTTP/1.1" 200 -
+2022-05-09 13:00:32,631 - _internal.py - INFO - 127.0.0.1 - - [09/May/2022 13:00:32] "GET /static/css/chunk-6ec7c010.6874bb5f.css HTTP/1.1" 200 -
+2022-05-09 13:00:32,631 - _internal.py - INFO - 127.0.0.1 - - [09/May/2022 13:00:32] "GET /static/js/chunk-6ec7c010.4a310bd5.js HTTP/1.1" 200 -
+2022-05-09 13:00:34,338 - _internal.py - INFO - 127.0.0.1 - - [09/May/2022 13:00:34] "GET /static/fonts/element-icons.535877f5.woff HTTP/1.1" 200 -
+2022-05-09 13:00:34,410 - _internal.py - INFO - 127.0.0.1 - - [09/May/2022 13:00:34] "GET /static/css/chunk-15a7d050.b972bb9f.css HTTP/1.1" 200 -
+2022-05-09 13:00:34,411 - _internal.py - INFO - 127.0.0.1 - - [09/May/2022 13:00:34] "GET /static/js/chunk-9e9c9b90.5c5cdf13.js HTTP/1.1" 200 -
+2022-05-09 13:00:34,411 - _internal.py - INFO - 127.0.0.1 - - [09/May/2022 13:00:34] "GET /static/js/chunk-15a7d050.6a9e6db9.js HTTP/1.1" 200 -
+2022-05-09 13:00:34,542 - _internal.py - INFO - 127.0.0.1 - - [09/May/2022 13:00:34] "GET /static/js/chunk-107fdb58.bb729d73.js HTTP/1.1" 200 -
+2022-05-09 13:00:34,548 - _internal.py - INFO - 127.0.0.1 - - [09/May/2022 13:00:34] "[33mGET /static/pictures/bjtu.jpeg?imageView2/1/w/80/h/80 HTTP/1.1[0m" 404 -
+2022-05-09 13:00:34,552 - _internal.py - INFO - 127.0.0.1 - - [09/May/2022 13:00:34] "GET /getBarChart?currentApp=网易云&strId= HTTP/1.1" 200 -
+2022-05-09 13:00:34,554 - _internal.py - INFO - 127.0.0.1 - - [09/May/2022 13:00:34] "GET /getRateChart?currentApp=网易云&strId= HTTP/1.1" 200 -
+2022-05-09 13:00:34,600 - _internal.py - INFO - 127.0.0.1 - - [09/May/2022 13:00:34] "[35m[1mGET /getRelChart?currentApp=网易云&strId= HTTP/1.1[0m" 500 -
+2022-05-09 13:00:34,650 - _internal.py - INFO - 127.0.0.1 - - [09/May/2022 13:00:34] "GET /wordCloud?currentApp=网易云&strId= HTTP/1.1" 200 -
+2022-05-09 13:01:45,702 - _internal.py - INFO - 127.0.0.1 - - [09/May/2022 13:01:45] "[35m[1mGET /get_1s HTTP/1.1[0m" 500 -

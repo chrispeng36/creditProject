@@ -1,0 +1,217 @@
+2022-05-05 17:51:10,973 - WARNING - _internal.py[:225] -  * Debugger is active!
+2022-05-08 17:11:14,352 - WARNING - _internal.py[:225] -  * Debugger is active!
+2022-05-09 13:00:17,920 - WARNING - _internal.py[:225] -  * Debugger is active!
+2022-05-16 15:34:10,360 - WARNING - _internal.py[:225] -  * Debugger is active!
+2022-06-13 10:18:56,552 - WARNING - _internal.py[:225] -  * Debugger is active!
+2022-06-13 10:48:11,497 - WARNING - _internal.py[:225] -  * Debugger is active!
+2022-06-13 10:55:44,972 - WARNING - _internal.py[:225] -  * Debugger is active!
+2022-06-13 14:46:33,493 - WARNING - _internal.py[:225] -  * Debugger is active!
+2022-06-14 13:22:36,398 - ERROR - spider.py[:214] - list index out of range
+Traceback (most recent call last):
+  File "D:\项目\scrawl\test_spider\spider.py", line 170, in get_weibo_info
+    self.user_config, page, self.filter).get_one_page(
+  File "D:\项目\scrawl\test_spider\parser\page_parser.py", line 51, in __init__
+    is_exist = info[0].xpath("div/span[@class='ctt']")
+IndexError: list index out of range
+2022-06-14 13:30:35,003 - ERROR - spider.py[:214] - list index out of range
+Traceback (most recent call last):
+  File "D:\项目\scrawl\test_spider\spider.py", line 170, in get_weibo_info
+    self.user_config, page, self.filter).get_one_page(
+  File "D:\项目\scrawl\test_spider\parser\page_parser.py", line 51, in __init__
+    is_exist = info[0].xpath("div/span[@class='ctt']")
+IndexError: list index out of range
+2022-06-14 13:34:52,880 - ERROR - spider.py[:214] - list index out of range
+Traceback (most recent call last):
+  File "D:\项目\scrawl\test_spider\spider.py", line 170, in get_weibo_info
+    self.user_config, page, self.filter).get_one_page(
+  File "D:\项目\scrawl\test_spider\parser\page_parser.py", line 51, in __init__
+    is_exist = info[0].xpath("div/span[@class='ctt']")
+IndexError: list index out of range
+2022-06-14 13:54:18,108 - ERROR - spider.py[:214] - list index out of range
+Traceback (most recent call last):
+  File "D:\项目\scrawl\test_spider\spider.py", line 170, in get_weibo_info
+    self.user_config, page, self.filter).get_one_page(
+  File "D:\项目\scrawl\test_spider\parser\page_parser.py", line 51, in __init__
+    is_exist = info[0].xpath("div/span[@class='ctt']")
+IndexError: list index out of range
+2022-06-14 13:56:17,769 - ERROR - spider.py[:214] - list index out of range
+Traceback (most recent call last):
+  File "D:\项目\scrawl\test_spider\spider.py", line 170, in get_weibo_info
+    self.user_config, page, self.filter).get_one_page(
+  File "D:\项目\scrawl\test_spider\parser\page_parser.py", line 51, in __init__
+    is_exist = info[0].xpath("div/span[@class='ctt']")
+IndexError: list index out of range
+2022-06-14 14:04:52,109 - ERROR - spider.py[:214] - list index out of range
+Traceback (most recent call last):
+  File "D:\项目\scrawl\test_spider\spider.py", line 170, in get_weibo_info
+    self.user_config, page, self.filter).get_one_page(
+  File "D:\项目\scrawl\test_spider\parser\page_parser.py", line 51, in __init__
+    is_exist = info[0].xpath("div/span[@class='ctt']")
+IndexError: list index out of range
+2022-06-14 14:09:15,893 - ERROR - spider.py[:214] - list index out of range
+Traceback (most recent call last):
+  File "D:\项目\scrawl\test_spider\spider.py", line 170, in get_weibo_info
+    self.user_config, page, self.filter).get_one_page(
+  File "D:\项目\scrawl\test_spider\parser\page_parser.py", line 51, in __init__
+    is_exist = info[0].xpath("div/span[@class='ctt']")
+IndexError: list index out of range
+2022-06-14 14:16:11,474 - ERROR - spider.py[:214] - list index out of range
+Traceback (most recent call last):
+  File "D:\项目\scrawl\test_spider\spider.py", line 170, in get_weibo_info
+    self.user_config, page, self.filter).get_one_page(
+  File "D:\项目\scrawl\test_spider\parser\page_parser.py", line 51, in __init__
+    is_exist = info[0].xpath("div/span[@class='ctt']")
+IndexError: list index out of range
+2022-06-14 14:26:10,641 - ERROR - spider.py[:214] - list index out of range
+Traceback (most recent call last):
+  File "D:\项目\scrawl\test_spider\spider.py", line 170, in get_weibo_info
+    self.user_config, page, self.filter).get_one_page(
+  File "D:\项目\scrawl\test_spider\parser\page_parser.py", line 51, in __init__
+    is_exist = info[0].xpath("div/span[@class='ctt']")
+IndexError: list index out of range
+2022-06-14 14:26:42,368 - ERROR - spider.py[:214] - list index out of range
+Traceback (most recent call last):
+  File "D:\项目\scrawl\test_spider\spider.py", line 170, in get_weibo_info
+    self.user_config, page, self.filter).get_one_page(
+  File "D:\项目\scrawl\test_spider\parser\page_parser.py", line 51, in __init__
+    is_exist = info[0].xpath("div/span[@class='ctt']")
+IndexError: list index out of range
+2022-06-14 14:44:46,034 - ERROR - spider.py[:214] - list index out of range
+Traceback (most recent call last):
+  File "D:\项目\scrawl\test_spider\spider.py", line 170, in get_weibo_info
+    self.user_config, page, self.filter).get_one_page(
+  File "D:\项目\scrawl\test_spider\parser\page_parser.py", line 51, in __init__
+    is_exist = info[0].xpath("div/span[@class='ctt']")
+IndexError: list index out of range
+2022-06-14 14:50:59,510 - ERROR - spider.py[:214] - list index out of range
+Traceback (most recent call last):
+  File "D:\项目\scrawl\test_spider\spider.py", line 170, in get_weibo_info
+    self.user_config, page, self.filter).get_one_page(
+  File "D:\项目\scrawl\test_spider\parser\page_parser.py", line 51, in __init__
+    is_exist = info[0].xpath("div/span[@class='ctt']")
+IndexError: list index out of range
+2022-06-14 15:04:26,204 - ERROR - spider.py[:214] - list index out of range
+Traceback (most recent call last):
+  File "D:\项目\scrawl\test_spider\spider.py", line 170, in get_weibo_info
+    self.user_config, page, self.filter).get_one_page(
+  File "D:\项目\scrawl\test_spider\parser\page_parser.py", line 51, in __init__
+    is_exist = info[0].xpath("div/span[@class='ctt']")
+IndexError: list index out of range
+2022-06-14 15:06:48,687 - ERROR - spider.py[:214] - list index out of range
+Traceback (most recent call last):
+  File "D:\项目\scrawl\test_spider\spider.py", line 170, in get_weibo_info
+    self.user_config, page, self.filter).get_one_page(
+  File "D:\项目\scrawl\test_spider\parser\page_parser.py", line 51, in __init__
+    is_exist = info[0].xpath("div/span[@class='ctt']")
+IndexError: list index out of range
+2022-06-14 15:23:05,299 - ERROR - spider.py[:214] - list index out of range
+Traceback (most recent call last):
+  File "D:\项目\scrawl\test_spider\spider.py", line 170, in get_weibo_info
+    self.user_config, page, self.filter).get_one_page(
+  File "D:\项目\scrawl\test_spider\parser\page_parser.py", line 51, in __init__
+    is_exist = info[0].xpath("div/span[@class='ctt']")
+IndexError: list index out of range
+2022-06-14 15:25:07,282 - ERROR - spider.py[:214] - list index out of range
+Traceback (most recent call last):
+  File "D:\项目\scrawl\test_spider\spider.py", line 170, in get_weibo_info
+    self.user_config, page, self.filter).get_one_page(
+  File "D:\项目\scrawl\test_spider\parser\page_parser.py", line 51, in __init__
+    is_exist = info[0].xpath("div/span[@class='ctt']")
+IndexError: list index out of range
+2022-06-14 15:25:50,011 - ERROR - spider.py[:214] - list index out of range
+Traceback (most recent call last):
+  File "D:\项目\scrawl\test_spider\spider.py", line 170, in get_weibo_info
+    self.user_config, page, self.filter).get_one_page(
+  File "D:\项目\scrawl\test_spider\parser\page_parser.py", line 51, in __init__
+    is_exist = info[0].xpath("div/span[@class='ctt']")
+IndexError: list index out of range
+2022-06-14 15:27:50,993 - ERROR - spider.py[:214] - list index out of range
+Traceback (most recent call last):
+  File "D:\项目\scrawl\test_spider\spider.py", line 170, in get_weibo_info
+    self.user_config, page, self.filter).get_one_page(
+  File "D:\项目\scrawl\test_spider\parser\page_parser.py", line 51, in __init__
+    is_exist = info[0].xpath("div/span[@class='ctt']")
+IndexError: list index out of range
+2022-06-14 15:33:00,738 - ERROR - spider.py[:214] - list index out of range
+Traceback (most recent call last):
+  File "D:\项目\scrawl\test_spider\spider.py", line 170, in get_weibo_info
+    self.user_config, page, self.filter).get_one_page(
+  File "D:\项目\scrawl\test_spider\parser\page_parser.py", line 51, in __init__
+    is_exist = info[0].xpath("div/span[@class='ctt']")
+IndexError: list index out of range
+2022-06-14 15:35:17,059 - ERROR - spider.py[:214] - list index out of range
+Traceback (most recent call last):
+  File "D:\项目\scrawl\test_spider\spider.py", line 170, in get_weibo_info
+    self.user_config, page, self.filter).get_one_page(
+  File "D:\项目\scrawl\test_spider\parser\page_parser.py", line 51, in __init__
+    is_exist = info[0].xpath("div/span[@class='ctt']")
+IndexError: list index out of range
+2022-06-14 15:38:15,659 - ERROR - spider.py[:214] - list index out of range
+Traceback (most recent call last):
+  File "D:\项目\scrawl\test_spider\spider.py", line 170, in get_weibo_info
+    self.user_config, page, self.filter).get_one_page(
+  File "D:\项目\scrawl\test_spider\parser\page_parser.py", line 51, in __init__
+    is_exist = info[0].xpath("div/span[@class='ctt']")
+IndexError: list index out of range
+2022-06-14 15:42:50,228 - ERROR - spider.py[:214] - list index out of range
+Traceback (most recent call last):
+  File "D:\项目\scrawl\test_spider\spider.py", line 170, in get_weibo_info
+    self.user_config, page, self.filter).get_one_page(
+  File "D:\项目\scrawl\test_spider\parser\page_parser.py", line 51, in __init__
+    is_exist = info[0].xpath("div/span[@class='ctt']")
+IndexError: list index out of range
+2022-06-14 15:46:15,713 - ERROR - spider.py[:214] - list index out of range
+Traceback (most recent call last):
+  File "D:\项目\scrawl\test_spider\spider.py", line 170, in get_weibo_info
+    self.user_config, page, self.filter).get_one_page(
+  File "D:\项目\scrawl\test_spider\parser\page_parser.py", line 51, in __init__
+    is_exist = info[0].xpath("div/span[@class='ctt']")
+IndexError: list index out of range
+2022-06-14 15:56:49,624 - ERROR - spider.py[:214] - list index out of range
+Traceback (most recent call last):
+  File "D:\CreditProject\web_platform\scrawl\test_spider\spider.py", line 170, in get_weibo_info
+    self.user_config, page, self.filter).get_one_page(
+  File "D:\CreditProject\web_platform\scrawl\test_spider\parser\page_parser.py", line 51, in __init__
+    is_exist = info[0].xpath("div/span[@class='ctt']")
+IndexError: list index out of range
+2022-06-14 16:22:38,067 - ERROR - spider.py[:214] - list index out of range
+Traceback (most recent call last):
+  File "D:\CreditProject\web_platform\scrawl\test_spider\spider.py", line 170, in get_weibo_info
+    self.user_config, page, self.filter).get_one_page(
+  File "D:\CreditProject\web_platform\scrawl\test_spider\parser\page_parser.py", line 51, in __init__
+    is_exist = info[0].xpath("div/span[@class='ctt']")
+IndexError: list index out of range
+2022-06-14 16:25:35,181 - ERROR - comment_parser.py[:37] - 网络出错
+Traceback (most recent call last):
+  File "D:\CreditProject\web_platform\scrawl\test_spider\parser\comment_parser.py", line 28, in get_long_weibo
+    info = self.selector.xpath("//div[@class='c']")[1]
+IndexError: list index out of range
+2022-06-14 16:25:35,182 - ERROR - comment_parser.py[:46] - 'NoneType' object has no attribute 'rfind'
+Traceback (most recent call last):
+  File "D:\CreditProject\web_platform\scrawl\test_spider\parser\comment_parser.py", line 43, in get_long_retweet
+    weibo_content = wb_content[:wb_content.rfind(u'原文转发')]
+AttributeError: 'NoneType' object has no attribute 'rfind'
+2022-06-14 20:02:00,305 - ERROR - comment_parser.py[:37] - 网络出错
+Traceback (most recent call last):
+  File "D:\CreditProject\web_platform\scrawl\test_spider\parser\comment_parser.py", line 28, in get_long_weibo
+    info = self.selector.xpath("//div[@class='c']")[1]
+IndexError: list index out of range
+2022-06-14 20:02:00,312 - ERROR - comment_parser.py[:46] - 'NoneType' object has no attribute 'rfind'
+Traceback (most recent call last):
+  File "D:\CreditProject\web_platform\scrawl\test_spider\parser\comment_parser.py", line 43, in get_long_retweet
+    weibo_content = wb_content[:wb_content.rfind(u'原文转发')]
+AttributeError: 'NoneType' object has no attribute 'rfind'
+2022-06-15 10:12:41,968 - WARNING - _internal.py[:225] -  * Debugger is active!
+2022-06-15 10:15:52,135 - WARNING - _internal.py[:225] -  * Debugger is active!
+2022-06-17 16:27:51,626 - WARNING - _internal.py[:225] -  * Debugger is active!
+2022-08-05 11:00:11,928 - WARNING - _internal.py[:225] -  * Debugger is active!
+2022-10-19 18:55:55,456 - WARNING - utils.py[:184] - Error occurred during loading data. Trying to use cache server https://fake-useragent.herokuapp.com/browsers/0.1.11
+Traceback (most recent call last):
+  File "D:\Anaconda\envs\pytorch36\lib\site-packages\fake_useragent\utils.py", line 154, in load
+    for item in get_browsers(verify_ssl=verify_ssl):
+  File "D:\Anaconda\envs\pytorch36\lib\site-packages\fake_useragent\utils.py", line 99, in get_browsers
+    html = html.split('<table class="w3-table-all notranslate">')[1]
+IndexError: list index out of range
+2022-10-19 18:56:14,042 - WARNING - _internal.py[:225] -  * Debugger is active!
+2022-10-19 19:00:12,599 - WARNING - _internal.py[:225] -  * Debugger is active!
+2022-10-19 21:13:56,017 - WARNING - _internal.py[:225] -  * Debugger is active!

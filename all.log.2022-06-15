@@ -1,0 +1,699 @@
+2022-06-13 10:18:44,470 - _internal.py - INFO -  * Restarting with stat
+2022-06-13 10:18:56,552 - _internal.py - WARNING -  * Debugger is active!
+2022-06-13 10:18:56,561 - _internal.py - INFO -  * Debugger PIN: 686-855-409
+2022-06-13 10:18:57,024 - _internal.py - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-06-13 10:19:00,522 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 10:19:00] "GET / HTTP/1.1" 200 -
+2022-06-13 10:19:00,539 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 10:19:00] "GET /static/css/app.f9dea87b.css HTTP/1.1" 200 -
+2022-06-13 10:19:00,542 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 10:19:00] "GET /static/css/chunk-libs.3dfb7769.css HTTP/1.1" 200 -
+2022-06-13 10:19:00,543 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 10:19:00] "GET /static/js/app.9689aa72.js HTTP/1.1" 200 -
+2022-06-13 10:19:00,565 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 10:19:00] "GET /static/js/chunk-elementUI.264d21be.js HTTP/1.1" 200 -
+2022-06-13 10:19:00,565 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 10:19:00] "GET /static/js/chunk-libs.a8b242f7.js HTTP/1.1" 200 -
+2022-06-13 10:19:00,766 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 10:19:00] "GET /static/css/chunk-6ec7c010.6874bb5f.css HTTP/1.1" 200 -
+2022-06-13 10:19:00,766 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 10:19:00] "GET /static/js/chunk-6ec7c010.4a310bd5.js HTTP/1.1" 200 -
+2022-06-13 10:19:00,811 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 10:19:00] "GET /favicon.ico HTTP/1.1" 200 -
+2022-06-13 10:19:02,201 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 10:19:02] "GET /static/fonts/element-icons.535877f5.woff HTTP/1.1" 200 -
+2022-06-13 10:19:02,290 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 10:19:02] "GET /static/css/chunk-15a7d050.b972bb9f.css HTTP/1.1" 200 -
+2022-06-13 10:19:02,292 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 10:19:02] "GET /static/js/chunk-9e9c9b90.5c5cdf13.js HTTP/1.1" 200 -
+2022-06-13 10:19:02,293 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 10:19:02] "GET /static/js/chunk-15a7d050.6a9e6db9.js HTTP/1.1" 200 -
+2022-06-13 10:19:02,446 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 10:19:02] "GET /static/js/chunk-107fdb58.bb729d73.js HTTP/1.1" 200 -
+2022-06-13 10:19:02,454 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 10:19:02] "[33mGET /static/pictures/bjtu.jpeg?imageView2/1/w/80/h/80 HTTP/1.1[0m" 404 -
+2022-06-13 10:19:02,460 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 10:19:02] "GET /getBarChart?currentApp=网易云&strId= HTTP/1.1" 200 -
+2022-06-13 10:19:02,463 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 10:19:02] "GET /getRateChart?currentApp=网易云&strId= HTTP/1.1" 200 -
+2022-06-13 10:19:02,548 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 10:19:02] "[35m[1mGET /getRelChart?currentApp=网易云&strId= HTTP/1.1[0m" 500 -
+2022-06-13 10:19:02,656 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 10:19:02] "GET /wordCloud?currentApp=网易云&strId= HTTP/1.1" 200 -
+2022-06-13 10:19:14,353 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 10:19:14] "GET /searchId?currentApp=微博&strId=2 HTTP/1.1" 200 -
+2022-06-13 10:19:17,224 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 10:19:17] "GET /wordCloud?currentApp=微博&strId=2372775335 HTTP/1.1" 200 -
+2022-06-13 10:19:17,232 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 10:19:17] "GET /getBarChart?currentApp=微博&strId=2372775335 HTTP/1.1" 200 -
+2022-06-13 10:19:17,233 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 10:19:17] "GET /getRateChart?currentApp=微博&strId=2372775335 HTTP/1.1" 200 -
+2022-06-13 10:19:18,621 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 10:19:18] "[35m[1mGET /getRelChart?currentApp=微博&strId=2372775335 HTTP/1.1[0m" 500 -
+2022-06-13 10:19:27,138 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 10:19:27] "GET /wordCloud?currentApp=微博&strId=2103663483 HTTP/1.1" 200 -
+2022-06-13 10:19:27,139 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 10:19:27] "GET /getBarChart?currentApp=微博&strId=2103663483 HTTP/1.1" 200 -
+2022-06-13 10:19:27,141 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 10:19:27] "GET /getRateChart?currentApp=微博&strId=2103663483 HTTP/1.1" 200 -
+2022-06-13 10:19:27,949 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 10:19:27] "[35m[1mGET /getRelChart?currentApp=微博&strId=2103663483 HTTP/1.1[0m" 500 -
+2022-06-13 10:19:33,865 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 10:19:33] "GET /wordCloud?currentApp=微博&strId=2951310623 HTTP/1.1" 200 -
+2022-06-13 10:19:33,866 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 10:19:33] "GET /getBarChart?currentApp=微博&strId=2951310623 HTTP/1.1" 200 -
+2022-06-13 10:19:33,868 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 10:19:33] "GET /getRateChart?currentApp=微博&strId=2951310623 HTTP/1.1" 200 -
+2022-06-13 10:19:34,724 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 10:19:34] "[35m[1mGET /getRelChart?currentApp=微博&strId=2951310623 HTTP/1.1[0m" 500 -
+2022-06-13 10:19:39,206 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 10:19:39] "GET /searchId?currentApp=微博&strId=1 HTTP/1.1" 200 -
+2022-06-13 10:19:40,820 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 10:19:40] "GET /getBarChart?currentApp=微博&strId=1315422384 HTTP/1.1" 200 -
+2022-06-13 10:19:40,821 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 10:19:40] "GET /wordCloud?currentApp=微博&strId=1315422384 HTTP/1.1" 200 -
+2022-06-13 10:19:40,825 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 10:19:40] "GET /getRateChart?currentApp=微博&strId=1315422384 HTTP/1.1" 200 -
+2022-06-13 10:19:41,681 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 10:19:41] "[35m[1mGET /getRelChart?currentApp=微博&strId=1315422384 HTTP/1.1[0m" 500 -
+2022-06-13 10:19:45,091 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 10:19:45] "GET /wordCloud?currentApp=网易云&strId=1959111303 HTTP/1.1" 200 -
+2022-06-13 10:19:45,092 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 10:19:45] "GET /getBarChart?currentApp=网易云&strId=1959111303 HTTP/1.1" 200 -
+2022-06-13 10:19:45,094 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 10:19:45] "GET /getRateChart?currentApp=网易云&strId=1959111303 HTTP/1.1" 200 -
+2022-06-13 10:19:45,113 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 10:19:45] "[35m[1mGET /getRelChart?currentApp=网易云&strId=1959111303 HTTP/1.1[0m" 500 -
+2022-06-13 10:20:17,392 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 10:20:17] "[35m[1mGET /get_1s HTTP/1.1[0m" 500 -
+2022-06-13 10:20:30,294 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 10:20:30] "GET /getBarChart?currentApp=微博&strId=1779465662 HTTP/1.1" 200 -
+2022-06-13 10:20:30,294 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 10:20:30] "GET /wordCloud?currentApp=微博&strId=1779465662 HTTP/1.1" 200 -
+2022-06-13 10:20:30,296 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 10:20:30] "GET /getRateChart?currentApp=微博&strId=1779465662 HTTP/1.1" 200 -
+2022-06-13 10:20:31,135 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 10:20:31] "[35m[1mGET /getRelChart?currentApp=微博&strId=1779465662 HTTP/1.1[0m" 500 -
+2022-06-13 10:47:59,472 - _internal.py - INFO -  * Restarting with stat
+2022-06-13 10:48:11,497 - _internal.py - WARNING -  * Debugger is active!
+2022-06-13 10:48:11,505 - _internal.py - INFO -  * Debugger PIN: 686-855-409
+2022-06-13 10:48:11,777 - _internal.py - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-06-13 10:49:00,971 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 10:49:00] "GET / HTTP/1.1" 200 -
+2022-06-13 10:49:01,008 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 10:49:01] "[36mGET /static/css/app.f9dea87b.css HTTP/1.1[0m" 304 -
+2022-06-13 10:49:01,009 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 10:49:01] "[36mGET /static/css/chunk-libs.3dfb7769.css HTTP/1.1[0m" 304 -
+2022-06-13 10:49:01,015 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 10:49:01] "[36mGET /static/js/app.9689aa72.js HTTP/1.1[0m" 304 -
+2022-06-13 10:49:01,022 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 10:49:01] "[36mGET /static/js/chunk-elementUI.264d21be.js HTTP/1.1[0m" 304 -
+2022-06-13 10:49:01,023 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 10:49:01] "[36mGET /static/js/chunk-libs.a8b242f7.js HTTP/1.1[0m" 304 -
+2022-06-13 10:49:01,254 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 10:49:01] "[36mGET /static/css/chunk-15a7d050.b972bb9f.css HTTP/1.1[0m" 304 -
+2022-06-13 10:49:01,256 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 10:49:01] "[36mGET /static/js/chunk-9e9c9b90.5c5cdf13.js HTTP/1.1[0m" 304 -
+2022-06-13 10:49:01,257 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 10:49:01] "[36mGET /static/js/chunk-15a7d050.6a9e6db9.js HTTP/1.1[0m" 304 -
+2022-06-13 10:49:01,449 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 10:49:01] "[36mGET /static/js/chunk-107fdb58.bb729d73.js HTTP/1.1[0m" 304 -
+2022-06-13 10:49:01,455 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 10:49:01] "[33mGET /static/pictures/bjtu.jpeg?imageView2/1/w/80/h/80 HTTP/1.1[0m" 404 -
+2022-06-13 10:49:01,462 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 10:49:01] "GET /getBarChart?currentApp=网易云&strId= HTTP/1.1" 200 -
+2022-06-13 10:49:01,463 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 10:49:01] "GET /getRateChart?currentApp=网易云&strId= HTTP/1.1" 200 -
+2022-06-13 10:49:01,517 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 10:49:01] "[36mGET /static/fonts/element-icons.535877f5.woff HTTP/1.1[0m" 304 -
+2022-06-13 10:49:01,523 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 10:49:01] "[35m[1mGET /getRelChart?currentApp=网易云&strId= HTTP/1.1[0m" 500 -
+2022-06-13 10:49:01,552 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 10:49:01] "GET /wordCloud?currentApp=网易云&strId= HTTP/1.1" 200 -
+2022-06-13 10:49:06,771 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 10:49:06] "GET /searchId?currentApp=网易云&strId=2 HTTP/1.1" 200 -
+2022-06-13 10:49:08,184 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 10:49:08] "GET /wordCloud?currentApp=网易云&strId=268530254 HTTP/1.1" 200 -
+2022-06-13 10:49:08,186 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 10:49:08] "GET /getBarChart?currentApp=网易云&strId=268530254 HTTP/1.1" 200 -
+2022-06-13 10:49:08,187 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 10:49:08] "GET /getRateChart?currentApp=网易云&strId=268530254 HTTP/1.1" 200 -
+2022-06-13 10:49:09,401 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 10:49:09] "GET /getRelChart?currentApp=网易云&strId=268530254 HTTP/1.1" 200 -
+2022-06-13 10:49:35,783 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 10:49:35] "GET /wordCloud?currentApp=网易云&strId=2021295966 HTTP/1.1" 200 -
+2022-06-13 10:49:35,784 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 10:49:35] "GET /getBarChart?currentApp=网易云&strId=2021295966 HTTP/1.1" 200 -
+2022-06-13 10:49:35,786 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 10:49:35] "GET /getRateChart?currentApp=网易云&strId=2021295966 HTTP/1.1" 200 -
+2022-06-13 10:49:37,197 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 10:49:37] "GET /getRelChart?currentApp=网易云&strId=2021295966 HTTP/1.1" 200 -
+2022-06-13 10:49:43,410 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 10:49:43] "GET /wordCloud?currentApp=网易云&strId=260823473 HTTP/1.1" 200 -
+2022-06-13 10:49:43,412 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 10:49:43] "GET /getBarChart?currentApp=网易云&strId=260823473 HTTP/1.1" 200 -
+2022-06-13 10:49:43,414 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 10:49:43] "GET /getRateChart?currentApp=网易云&strId=260823473 HTTP/1.1" 200 -
+2022-06-13 10:49:44,689 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 10:49:44] "GET /getRelChart?currentApp=网易云&strId=260823473 HTTP/1.1" 200 -
+2022-06-13 10:49:59,195 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 10:49:59] "GET /searchId?currentApp=微博&strId=1 HTTP/1.1" 200 -
+2022-06-13 10:50:01,187 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 10:50:01] "GET /getBarChart?currentApp=微博&strId=1269643340 HTTP/1.1" 200 -
+2022-06-13 10:50:01,187 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 10:50:01] "GET /wordCloud?currentApp=微博&strId=1269643340 HTTP/1.1" 200 -
+2022-06-13 10:50:01,188 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 10:50:01] "GET /getRateChart?currentApp=微博&strId=1269643340 HTTP/1.1" 200 -
+2022-06-13 10:50:02,375 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 10:50:02] "[35m[1mGET /getRelChart?currentApp=微博&strId=1269643340 HTTP/1.1[0m" 500 -
+2022-06-13 10:52:01,773 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 10:52:01] "GET /wordCloud?currentApp=微博&strId=1705923001 HTTP/1.1" 200 -
+2022-06-13 10:52:01,775 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 10:52:01] "GET /getBarChart?currentApp=微博&strId=1705923001 HTTP/1.1" 200 -
+2022-06-13 10:52:01,777 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 10:52:01] "GET /getRateChart?currentApp=微博&strId=1705923001 HTTP/1.1" 200 -
+2022-06-13 10:52:02,631 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 10:52:02] "[35m[1mGET /getRelChart?currentApp=微博&strId=1705923001 HTTP/1.1[0m" 500 -
+2022-06-13 10:55:33,053 - _internal.py - INFO -  * Restarting with stat
+2022-06-13 10:55:44,972 - _internal.py - WARNING -  * Debugger is active!
+2022-06-13 10:55:44,980 - _internal.py - INFO -  * Debugger PIN: 686-855-409
+2022-06-13 10:55:45,262 - _internal.py - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-06-13 10:56:22,397 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 10:56:22] "GET / HTTP/1.1" 200 -
+2022-06-13 10:56:22,418 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 10:56:22] "[36mGET /static/css/app.f9dea87b.css HTTP/1.1[0m" 304 -
+2022-06-13 10:56:22,420 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 10:56:22] "[36mGET /static/css/chunk-libs.3dfb7769.css HTTP/1.1[0m" 304 -
+2022-06-13 10:56:22,423 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 10:56:22] "[36mGET /static/js/app.9689aa72.js HTTP/1.1[0m" 304 -
+2022-06-13 10:56:22,426 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 10:56:22] "[36mGET /static/js/chunk-elementUI.264d21be.js HTTP/1.1[0m" 304 -
+2022-06-13 10:56:22,427 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 10:56:22] "[36mGET /static/js/chunk-libs.a8b242f7.js HTTP/1.1[0m" 304 -
+2022-06-13 10:56:22,728 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 10:56:22] "[36mGET /static/css/chunk-15a7d050.b972bb9f.css HTTP/1.1[0m" 304 -
+2022-06-13 10:56:22,729 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 10:56:22] "[36mGET /static/js/chunk-9e9c9b90.5c5cdf13.js HTTP/1.1[0m" 304 -
+2022-06-13 10:56:22,730 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 10:56:22] "[36mGET /static/js/chunk-15a7d050.6a9e6db9.js HTTP/1.1[0m" 304 -
+2022-06-13 10:56:22,923 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 10:56:22] "[36mGET /static/js/chunk-107fdb58.bb729d73.js HTTP/1.1[0m" 304 -
+2022-06-13 10:56:22,930 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 10:56:22] "[33mGET /static/pictures/bjtu.jpeg?imageView2/1/w/80/h/80 HTTP/1.1[0m" 404 -
+2022-06-13 10:56:22,934 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 10:56:22] "GET /getBarChart?currentApp=网易云&strId= HTTP/1.1" 200 -
+2022-06-13 10:56:22,936 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 10:56:22] "GET /getRateChart?currentApp=网易云&strId= HTTP/1.1" 200 -
+2022-06-13 10:56:22,984 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 10:56:22] "[36mGET /static/fonts/element-icons.535877f5.woff HTTP/1.1[0m" 304 -
+2022-06-13 10:56:22,991 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 10:56:22] "[35m[1mGET /getRelChart?currentApp=网易云&strId= HTTP/1.1[0m" 500 -
+2022-06-13 10:56:23,020 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 10:56:23] "GET /wordCloud?currentApp=网易云&strId= HTTP/1.1" 200 -
+2022-06-13 10:56:29,299 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 10:56:29] "GET /searchId?currentApp=微博&strId=1 HTTP/1.1" 200 -
+2022-06-13 10:56:30,650 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 10:56:30] "GET /wordCloud?currentApp=微博&strId=1745421740 HTTP/1.1" 200 -
+2022-06-13 10:56:30,651 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 10:56:30] "GET /getBarChart?currentApp=微博&strId=1745421740 HTTP/1.1" 200 -
+2022-06-13 10:56:30,653 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 10:56:30] "GET /getRateChart?currentApp=微博&strId=1745421740 HTTP/1.1" 200 -
+2022-06-13 10:56:32,969 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 10:56:32] "GET /getRelChart?currentApp=微博&strId=1745421740 HTTP/1.1" 200 -
+2022-06-13 10:56:44,528 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 10:56:44] "GET /wordCloud?currentApp=微博&strId=1705923001 HTTP/1.1" 200 -
+2022-06-13 10:56:44,529 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 10:56:44] "GET /getBarChart?currentApp=微博&strId=1705923001 HTTP/1.1" 200 -
+2022-06-13 10:56:44,532 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 10:56:44] "GET /getRateChart?currentApp=微博&strId=1705923001 HTTP/1.1" 200 -
+2022-06-13 10:56:46,854 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 10:56:46] "GET /getRelChart?currentApp=微博&strId=1705923001 HTTP/1.1" 200 -
+2022-06-13 10:56:50,600 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 10:56:50] "GET /wordCloud?currentApp=微博&strId=1966542885 HTTP/1.1" 200 -
+2022-06-13 10:56:50,602 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 10:56:50] "GET /getBarChart?currentApp=微博&strId=1966542885 HTTP/1.1" 200 -
+2022-06-13 10:56:50,603 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 10:56:50] "GET /getRateChart?currentApp=微博&strId=1966542885 HTTP/1.1" 200 -
+2022-06-13 10:56:52,985 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 10:56:52] "GET /getRelChart?currentApp=微博&strId=1966542885 HTTP/1.1" 200 -
+2022-06-13 14:46:21,338 - _internal.py - INFO -  * Restarting with stat
+2022-06-13 14:46:33,493 - _internal.py - WARNING -  * Debugger is active!
+2022-06-13 14:46:33,504 - _internal.py - INFO -  * Debugger PIN: 686-855-409
+2022-06-13 14:46:33,999 - _internal.py - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-06-13 14:46:35,666 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 14:46:35] "GET / HTTP/1.1" 200 -
+2022-06-13 14:46:35,691 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 14:46:35] "[36mGET /static/css/app.f9dea87b.css HTTP/1.1[0m" 304 -
+2022-06-13 14:46:35,691 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 14:46:35] "[36mGET /static/css/chunk-libs.3dfb7769.css HTTP/1.1[0m" 304 -
+2022-06-13 14:46:35,737 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 14:46:35] "[36mGET /static/js/app.9689aa72.js HTTP/1.1[0m" 304 -
+2022-06-13 14:46:35,829 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 14:46:35] "[36mGET /static/js/chunk-elementUI.264d21be.js HTTP/1.1[0m" 304 -
+2022-06-13 14:46:35,873 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 14:46:35] "[36mGET /static/js/chunk-libs.a8b242f7.js HTTP/1.1[0m" 304 -
+2022-06-13 14:46:36,251 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 14:46:36] "[36mGET /static/css/chunk-15a7d050.b972bb9f.css HTTP/1.1[0m" 304 -
+2022-06-13 14:46:36,253 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 14:46:36] "[36mGET /static/js/chunk-9e9c9b90.5c5cdf13.js HTTP/1.1[0m" 304 -
+2022-06-13 14:46:36,253 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 14:46:36] "[36mGET /static/js/chunk-15a7d050.6a9e6db9.js HTTP/1.1[0m" 304 -
+2022-06-13 14:46:36,448 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 14:46:36] "[36mGET /static/js/chunk-107fdb58.bb729d73.js HTTP/1.1[0m" 304 -
+2022-06-13 14:46:36,454 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 14:46:36] "[33mGET /static/pictures/bjtu.jpeg?imageView2/1/w/80/h/80 HTTP/1.1[0m" 404 -
+2022-06-13 14:46:36,459 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 14:46:36] "GET /getBarChart?currentApp=网易云&strId= HTTP/1.1" 200 -
+2022-06-13 14:46:36,462 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 14:46:36] "GET /getRateChart?currentApp=网易云&strId= HTTP/1.1" 200 -
+2022-06-13 14:46:36,525 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 14:46:36] "[36mGET /static/fonts/element-icons.535877f5.woff HTTP/1.1[0m" 304 -
+2022-06-13 14:46:36,533 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 14:46:36] "[35m[1mGET /getRelChart?currentApp=网易云&strId= HTTP/1.1[0m" 500 -
+2022-06-13 14:46:36,593 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 14:46:36] "GET /wordCloud?currentApp=网易云&strId= HTTP/1.1" 200 -
+2022-06-13 14:49:00,349 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 14:49:00] "GET /searchId?currentApp=网易云&strId=1 HTTP/1.1" 200 -
+2022-06-13 14:49:03,158 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 14:49:03] "GET /wordCloud?currentApp=网易云&strId=12574047 HTTP/1.1" 200 -
+2022-06-13 14:49:03,161 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 14:49:03] "GET /getBarChart?currentApp=网易云&strId=12574047 HTTP/1.1" 200 -
+2022-06-13 14:49:03,164 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 14:49:03] "GET /getRateChart?currentApp=网易云&strId=12574047 HTTP/1.1" 200 -
+2022-06-13 14:49:04,885 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 14:49:04] "GET /getRelChart?currentApp=网易云&strId=12574047 HTTP/1.1" 200 -
+2022-06-13 14:49:29,607 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 14:49:29] "GET /searchId?currentApp=微博&strId=1 HTTP/1.1" 200 -
+2022-06-13 14:49:32,646 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 14:49:32] "GET /getBarChart?currentApp=微博&strId=1966542885 HTTP/1.1" 200 -
+2022-06-13 14:49:32,648 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 14:49:32] "GET /getRateChart?currentApp=微博&strId=1966542885 HTTP/1.1" 200 -
+2022-06-13 14:49:32,649 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 14:49:32] "GET /wordCloud?currentApp=微博&strId=1966542885 HTTP/1.1" 200 -
+2022-06-13 14:49:35,491 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 14:49:35] "GET /getRelChart?currentApp=微博&strId=1966542885 HTTP/1.1" 200 -
+2022-06-13 14:50:26,924 - _internal.py - INFO - 127.0.0.1 - - [13/Jun/2022 14:50:26] "[35m[1mGET /get_1s HTTP/1.1[0m" 500 -
+2022-06-13 16:56:50,668 - Writer.py - INFO - 网易云关注者写入数据库完毕！！！
+2022-06-13 17:18:41,647 - Writer.py - INFO - 网易云粉丝写入数据库完毕！！！
+2022-06-14 01:41:36,267 - Writer.py - INFO - 网易云属性信息写入数据库完毕！！！
+2022-06-14 11:06:38,118 - Writer.py - INFO - 网易云发帖写入数据完毕！！！
+2022-06-14 11:08:16,902 - Writer.py - INFO - 网易云发帖写入数据完毕！！！
+2022-06-14 11:09:35,428 - Writer.py - INFO - 网易云发帖写入数据完毕！！！
+2022-06-14 13:00:41,415 - Writer.py - INFO - 微博关注用户写入完毕！！！
+2022-06-14 13:09:31,923 - Writer.py - INFO - 微博关注用户写入完毕！！！
+2022-06-14 13:19:36,135 - spider.py - INFO - 请先配置当前目录(D:\项目\web_platform)下的config.json文件，如果想了解config.json参数的具体意义及配置方法，请访问
+https://github.com/dataabc/weiboSpider#2程序设置
+2022-06-14 13:22:36,398 - spider.py - ERROR - list index out of range
+Traceback (most recent call last):
+  File "D:\项目\scrawl\test_spider\spider.py", line 170, in get_weibo_info
+    self.user_config, page, self.filter).get_one_page(
+  File "D:\项目\scrawl\test_spider\parser\page_parser.py", line 51, in __init__
+    is_exist = info[0].xpath("div/span[@class='ctt']")
+IndexError: list index out of range
+2022-06-14 13:22:36,399 - spider.py - INFO - 共爬取0条微博
+2022-06-14 13:22:36,399 - spider.py - INFO - 信息抓取完毕
+2022-06-14 13:22:36,399 - spider.py - INFO - ****************************************************************************************************
+2022-06-14 13:30:35,003 - spider.py - ERROR - list index out of range
+Traceback (most recent call last):
+  File "D:\项目\scrawl\test_spider\spider.py", line 170, in get_weibo_info
+    self.user_config, page, self.filter).get_one_page(
+  File "D:\项目\scrawl\test_spider\parser\page_parser.py", line 51, in __init__
+    is_exist = info[0].xpath("div/span[@class='ctt']")
+IndexError: list index out of range
+2022-06-14 13:30:35,004 - spider.py - INFO - 共爬取0条微博
+2022-06-14 13:30:35,004 - spider.py - INFO - 信息抓取完毕
+2022-06-14 13:30:35,004 - spider.py - INFO - ****************************************************************************************************
+2022-06-14 13:34:52,880 - spider.py - ERROR - list index out of range
+Traceback (most recent call last):
+  File "D:\项目\scrawl\test_spider\spider.py", line 170, in get_weibo_info
+    self.user_config, page, self.filter).get_one_page(
+  File "D:\项目\scrawl\test_spider\parser\page_parser.py", line 51, in __init__
+    is_exist = info[0].xpath("div/span[@class='ctt']")
+IndexError: list index out of range
+2022-06-14 13:34:52,881 - spider.py - INFO - 共爬取0条微博
+2022-06-14 13:34:52,881 - spider.py - INFO - 信息抓取完毕
+2022-06-14 13:34:52,881 - spider.py - INFO - ****************************************************************************************************
+2022-06-14 13:54:18,108 - spider.py - ERROR - list index out of range
+Traceback (most recent call last):
+  File "D:\项目\scrawl\test_spider\spider.py", line 170, in get_weibo_info
+    self.user_config, page, self.filter).get_one_page(
+  File "D:\项目\scrawl\test_spider\parser\page_parser.py", line 51, in __init__
+    is_exist = info[0].xpath("div/span[@class='ctt']")
+IndexError: list index out of range
+2022-06-14 13:54:18,109 - spider.py - INFO - 共爬取0条微博
+2022-06-14 13:54:18,109 - spider.py - INFO - 信息抓取完毕
+2022-06-14 13:54:18,109 - spider.py - INFO - ****************************************************************************************************
+2022-06-14 13:56:17,769 - spider.py - ERROR - list index out of range
+Traceback (most recent call last):
+  File "D:\项目\scrawl\test_spider\spider.py", line 170, in get_weibo_info
+    self.user_config, page, self.filter).get_one_page(
+  File "D:\项目\scrawl\test_spider\parser\page_parser.py", line 51, in __init__
+    is_exist = info[0].xpath("div/span[@class='ctt']")
+IndexError: list index out of range
+2022-06-14 13:56:17,770 - spider.py - INFO - 共爬取0条微博
+2022-06-14 13:56:17,770 - spider.py - INFO - 信息抓取完毕
+2022-06-14 13:56:17,770 - spider.py - INFO - ****************************************************************************************************
+2022-06-14 14:04:52,109 - spider.py - ERROR - list index out of range
+Traceback (most recent call last):
+  File "D:\项目\scrawl\test_spider\spider.py", line 170, in get_weibo_info
+    self.user_config, page, self.filter).get_one_page(
+  File "D:\项目\scrawl\test_spider\parser\page_parser.py", line 51, in __init__
+    is_exist = info[0].xpath("div/span[@class='ctt']")
+IndexError: list index out of range
+2022-06-14 14:04:52,110 - spider.py - INFO - 共爬取0条微博
+2022-06-14 14:04:52,110 - spider.py - INFO - 信息抓取完毕
+2022-06-14 14:04:52,110 - spider.py - INFO - ****************************************************************************************************
+2022-06-14 14:09:15,893 - spider.py - ERROR - list index out of range
+Traceback (most recent call last):
+  File "D:\项目\scrawl\test_spider\spider.py", line 170, in get_weibo_info
+    self.user_config, page, self.filter).get_one_page(
+  File "D:\项目\scrawl\test_spider\parser\page_parser.py", line 51, in __init__
+    is_exist = info[0].xpath("div/span[@class='ctt']")
+IndexError: list index out of range
+2022-06-14 14:09:15,894 - spider.py - INFO - 共爬取0条微博
+2022-06-14 14:09:15,894 - spider.py - INFO - 信息抓取完毕
+2022-06-14 14:09:15,894 - spider.py - INFO - ****************************************************************************************************
+2022-06-14 14:16:11,474 - spider.py - ERROR - list index out of range
+Traceback (most recent call last):
+  File "D:\项目\scrawl\test_spider\spider.py", line 170, in get_weibo_info
+    self.user_config, page, self.filter).get_one_page(
+  File "D:\项目\scrawl\test_spider\parser\page_parser.py", line 51, in __init__
+    is_exist = info[0].xpath("div/span[@class='ctt']")
+IndexError: list index out of range
+2022-06-14 14:16:11,475 - spider.py - INFO - 共爬取0条微博
+2022-06-14 14:16:11,475 - spider.py - INFO - 信息抓取完毕
+2022-06-14 14:16:11,475 - spider.py - INFO - ****************************************************************************************************
+2022-06-14 14:26:10,641 - spider.py - ERROR - list index out of range
+Traceback (most recent call last):
+  File "D:\项目\scrawl\test_spider\spider.py", line 170, in get_weibo_info
+    self.user_config, page, self.filter).get_one_page(
+  File "D:\项目\scrawl\test_spider\parser\page_parser.py", line 51, in __init__
+    is_exist = info[0].xpath("div/span[@class='ctt']")
+IndexError: list index out of range
+2022-06-14 14:26:10,642 - spider.py - INFO - 共爬取0条微博
+2022-06-14 14:26:10,642 - spider.py - INFO - 信息抓取完毕
+2022-06-14 14:26:10,643 - spider.py - INFO - ****************************************************************************************************
+2022-06-14 14:26:42,368 - spider.py - ERROR - list index out of range
+Traceback (most recent call last):
+  File "D:\项目\scrawl\test_spider\spider.py", line 170, in get_weibo_info
+    self.user_config, page, self.filter).get_one_page(
+  File "D:\项目\scrawl\test_spider\parser\page_parser.py", line 51, in __init__
+    is_exist = info[0].xpath("div/span[@class='ctt']")
+IndexError: list index out of range
+2022-06-14 14:26:42,369 - spider.py - INFO - 共爬取0条微博
+2022-06-14 14:26:42,369 - spider.py - INFO - 信息抓取完毕
+2022-06-14 14:26:42,369 - spider.py - INFO - ****************************************************************************************************
+2022-06-14 14:44:46,034 - spider.py - ERROR - list index out of range
+Traceback (most recent call last):
+  File "D:\项目\scrawl\test_spider\spider.py", line 170, in get_weibo_info
+    self.user_config, page, self.filter).get_one_page(
+  File "D:\项目\scrawl\test_spider\parser\page_parser.py", line 51, in __init__
+    is_exist = info[0].xpath("div/span[@class='ctt']")
+IndexError: list index out of range
+2022-06-14 14:44:46,037 - spider.py - INFO - 共爬取0条微博
+2022-06-14 14:44:46,038 - spider.py - INFO - 信息抓取完毕
+2022-06-14 14:44:46,038 - spider.py - INFO - ****************************************************************************************************
+2022-06-14 14:50:59,510 - spider.py - ERROR - list index out of range
+Traceback (most recent call last):
+  File "D:\项目\scrawl\test_spider\spider.py", line 170, in get_weibo_info
+    self.user_config, page, self.filter).get_one_page(
+  File "D:\项目\scrawl\test_spider\parser\page_parser.py", line 51, in __init__
+    is_exist = info[0].xpath("div/span[@class='ctt']")
+IndexError: list index out of range
+2022-06-14 14:50:59,512 - spider.py - INFO - 共爬取0条微博
+2022-06-14 14:50:59,513 - spider.py - INFO - 信息抓取完毕
+2022-06-14 14:50:59,513 - spider.py - INFO - ****************************************************************************************************
+2022-06-14 15:04:26,204 - spider.py - ERROR - list index out of range
+Traceback (most recent call last):
+  File "D:\项目\scrawl\test_spider\spider.py", line 170, in get_weibo_info
+    self.user_config, page, self.filter).get_one_page(
+  File "D:\项目\scrawl\test_spider\parser\page_parser.py", line 51, in __init__
+    is_exist = info[0].xpath("div/span[@class='ctt']")
+IndexError: list index out of range
+2022-06-14 15:04:26,205 - spider.py - INFO - 共爬取0条微博
+2022-06-14 15:04:26,205 - spider.py - INFO - 信息抓取完毕
+2022-06-14 15:04:26,205 - spider.py - INFO - ****************************************************************************************************
+2022-06-14 15:06:48,687 - spider.py - ERROR - list index out of range
+Traceback (most recent call last):
+  File "D:\项目\scrawl\test_spider\spider.py", line 170, in get_weibo_info
+    self.user_config, page, self.filter).get_one_page(
+  File "D:\项目\scrawl\test_spider\parser\page_parser.py", line 51, in __init__
+    is_exist = info[0].xpath("div/span[@class='ctt']")
+IndexError: list index out of range
+2022-06-14 15:06:48,688 - spider.py - INFO - 共爬取0条微博
+2022-06-14 15:06:48,688 - spider.py - INFO - 信息抓取完毕
+2022-06-14 15:06:48,688 - spider.py - INFO - ****************************************************************************************************
+2022-06-14 15:23:05,299 - spider.py - ERROR - list index out of range
+Traceback (most recent call last):
+  File "D:\项目\scrawl\test_spider\spider.py", line 170, in get_weibo_info
+    self.user_config, page, self.filter).get_one_page(
+  File "D:\项目\scrawl\test_spider\parser\page_parser.py", line 51, in __init__
+    is_exist = info[0].xpath("div/span[@class='ctt']")
+IndexError: list index out of range
+2022-06-14 15:23:05,300 - spider.py - INFO - 共爬取0条微博
+2022-06-14 15:23:05,300 - spider.py - INFO - 信息抓取完毕
+2022-06-14 15:23:05,300 - spider.py - INFO - ****************************************************************************************************
+2022-06-14 15:25:07,282 - spider.py - ERROR - list index out of range
+Traceback (most recent call last):
+  File "D:\项目\scrawl\test_spider\spider.py", line 170, in get_weibo_info
+    self.user_config, page, self.filter).get_one_page(
+  File "D:\项目\scrawl\test_spider\parser\page_parser.py", line 51, in __init__
+    is_exist = info[0].xpath("div/span[@class='ctt']")
+IndexError: list index out of range
+2022-06-14 15:25:07,283 - spider.py - INFO - 共爬取0条微博
+2022-06-14 15:25:07,283 - spider.py - INFO - 信息抓取完毕
+2022-06-14 15:25:07,283 - spider.py - INFO - ****************************************************************************************************
+2022-06-14 15:25:50,011 - spider.py - ERROR - list index out of range
+Traceback (most recent call last):
+  File "D:\项目\scrawl\test_spider\spider.py", line 170, in get_weibo_info
+    self.user_config, page, self.filter).get_one_page(
+  File "D:\项目\scrawl\test_spider\parser\page_parser.py", line 51, in __init__
+    is_exist = info[0].xpath("div/span[@class='ctt']")
+IndexError: list index out of range
+2022-06-14 15:25:50,012 - spider.py - INFO - 共爬取0条微博
+2022-06-14 15:25:50,012 - spider.py - INFO - 信息抓取完毕
+2022-06-14 15:25:50,012 - spider.py - INFO - ****************************************************************************************************
+2022-06-14 15:27:50,993 - spider.py - ERROR - list index out of range
+Traceback (most recent call last):
+  File "D:\项目\scrawl\test_spider\spider.py", line 170, in get_weibo_info
+    self.user_config, page, self.filter).get_one_page(
+  File "D:\项目\scrawl\test_spider\parser\page_parser.py", line 51, in __init__
+    is_exist = info[0].xpath("div/span[@class='ctt']")
+IndexError: list index out of range
+2022-06-14 15:27:50,994 - spider.py - INFO - 共爬取0条微博
+2022-06-14 15:27:50,994 - spider.py - INFO - 信息抓取完毕
+2022-06-14 15:27:50,994 - spider.py - INFO - ****************************************************************************************************
+2022-06-14 15:33:00,738 - spider.py - ERROR - list index out of range
+Traceback (most recent call last):
+  File "D:\项目\scrawl\test_spider\spider.py", line 170, in get_weibo_info
+    self.user_config, page, self.filter).get_one_page(
+  File "D:\项目\scrawl\test_spider\parser\page_parser.py", line 51, in __init__
+    is_exist = info[0].xpath("div/span[@class='ctt']")
+IndexError: list index out of range
+2022-06-14 15:33:00,739 - spider.py - INFO - 共爬取0条微博
+2022-06-14 15:33:00,739 - spider.py - INFO - 信息抓取完毕
+2022-06-14 15:33:00,739 - spider.py - INFO - ****************************************************************************************************
+2022-06-14 15:35:17,059 - spider.py - ERROR - list index out of range
+Traceback (most recent call last):
+  File "D:\项目\scrawl\test_spider\spider.py", line 170, in get_weibo_info
+    self.user_config, page, self.filter).get_one_page(
+  File "D:\项目\scrawl\test_spider\parser\page_parser.py", line 51, in __init__
+    is_exist = info[0].xpath("div/span[@class='ctt']")
+IndexError: list index out of range
+2022-06-14 15:35:17,060 - spider.py - INFO - 共爬取0条微博
+2022-06-14 15:35:17,060 - spider.py - INFO - 信息抓取完毕
+2022-06-14 15:35:17,060 - spider.py - INFO - ****************************************************************************************************
+2022-06-14 15:38:15,659 - spider.py - ERROR - list index out of range
+Traceback (most recent call last):
+  File "D:\项目\scrawl\test_spider\spider.py", line 170, in get_weibo_info
+    self.user_config, page, self.filter).get_one_page(
+  File "D:\项目\scrawl\test_spider\parser\page_parser.py", line 51, in __init__
+    is_exist = info[0].xpath("div/span[@class='ctt']")
+IndexError: list index out of range
+2022-06-14 15:38:15,660 - spider.py - INFO - 共爬取0条微博
+2022-06-14 15:38:15,660 - spider.py - INFO - 信息抓取完毕
+2022-06-14 15:38:15,660 - spider.py - INFO - ****************************************************************************************************
+2022-06-14 15:42:50,228 - spider.py - ERROR - list index out of range
+Traceback (most recent call last):
+  File "D:\项目\scrawl\test_spider\spider.py", line 170, in get_weibo_info
+    self.user_config, page, self.filter).get_one_page(
+  File "D:\项目\scrawl\test_spider\parser\page_parser.py", line 51, in __init__
+    is_exist = info[0].xpath("div/span[@class='ctt']")
+IndexError: list index out of range
+2022-06-14 15:42:50,229 - spider.py - INFO - 共爬取0条微博
+2022-06-14 15:42:50,229 - spider.py - INFO - 信息抓取完毕
+2022-06-14 15:42:50,229 - spider.py - INFO - ****************************************************************************************************
+2022-06-14 15:46:15,713 - spider.py - ERROR - list index out of range
+Traceback (most recent call last):
+  File "D:\项目\scrawl\test_spider\spider.py", line 170, in get_weibo_info
+    self.user_config, page, self.filter).get_one_page(
+  File "D:\项目\scrawl\test_spider\parser\page_parser.py", line 51, in __init__
+    is_exist = info[0].xpath("div/span[@class='ctt']")
+IndexError: list index out of range
+2022-06-14 15:46:15,714 - spider.py - INFO - 共爬取0条微博
+2022-06-14 15:46:15,714 - spider.py - INFO - 信息抓取完毕
+2022-06-14 15:46:15,714 - spider.py - INFO - ****************************************************************************************************
+2022-06-14 15:56:49,624 - spider.py - ERROR - list index out of range
+Traceback (most recent call last):
+  File "D:\CreditProject\web_platform\scrawl\test_spider\spider.py", line 170, in get_weibo_info
+    self.user_config, page, self.filter).get_one_page(
+  File "D:\CreditProject\web_platform\scrawl\test_spider\parser\page_parser.py", line 51, in __init__
+    is_exist = info[0].xpath("div/span[@class='ctt']")
+IndexError: list index out of range
+2022-06-14 15:56:49,625 - spider.py - INFO - 共爬取0条微博
+2022-06-14 15:56:49,625 - spider.py - INFO - 信息抓取完毕
+2022-06-14 15:56:49,625 - spider.py - INFO - ****************************************************************************************************
+2022-06-14 16:22:38,067 - spider.py - ERROR - list index out of range
+Traceback (most recent call last):
+  File "D:\CreditProject\web_platform\scrawl\test_spider\spider.py", line 170, in get_weibo_info
+    self.user_config, page, self.filter).get_one_page(
+  File "D:\CreditProject\web_platform\scrawl\test_spider\parser\page_parser.py", line 51, in __init__
+    is_exist = info[0].xpath("div/span[@class='ctt']")
+IndexError: list index out of range
+2022-06-14 16:22:38,068 - spider.py - INFO - 共爬取0条微博
+2022-06-14 16:22:38,068 - spider.py - INFO - 信息抓取完毕
+2022-06-14 16:22:38,068 - spider.py - INFO - ****************************************************************************************************
+2022-06-14 16:25:26,441 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 16:25:26,442 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 16:25:26,442 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 16:25:26,442 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 16:25:27,333 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 16:25:27,334 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 16:25:27,334 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 16:25:27,334 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 16:25:27,334 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 16:25:27,334 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 16:25:27,334 - spider.py - INFO - ------------------------------已获取()的第1页微博------------------------------
+2022-06-14 16:25:27,978 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 16:25:27,978 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 16:25:27,978 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 16:25:27,978 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 16:25:27,979 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 16:25:27,979 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 16:25:27,979 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 16:25:27,979 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 16:25:27,979 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 16:25:27,979 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 16:25:27,980 - spider.py - INFO - ------------------------------已获取()的第2页微博------------------------------
+2022-06-14 16:25:28,501 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 16:25:28,502 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 16:25:28,502 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 16:25:28,502 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 16:25:28,502 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 16:25:28,502 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 16:25:28,503 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 16:25:28,503 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 16:25:28,503 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 16:25:28,503 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 16:25:28,503 - spider.py - INFO - ------------------------------已获取()的第3页微博------------------------------
+2022-06-14 16:25:34,828 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 16:25:34,828 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 16:25:34,828 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 16:25:34,828 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 16:25:34,829 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 16:25:34,829 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 16:25:34,829 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 16:25:34,829 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 16:25:34,829 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 16:25:35,181 - comment_parser.py - ERROR - 网络出错
+Traceback (most recent call last):
+  File "D:\CreditProject\web_platform\scrawl\test_spider\parser\comment_parser.py", line 28, in get_long_weibo
+    info = self.selector.xpath("//div[@class='c']")[1]
+IndexError: list index out of range
+2022-06-14 16:25:35,182 - comment_parser.py - ERROR - 'NoneType' object has no attribute 'rfind'
+Traceback (most recent call last):
+  File "D:\CreditProject\web_platform\scrawl\test_spider\parser\comment_parser.py", line 43, in get_long_retweet
+    weibo_content = wb_content[:wb_content.rfind(u'原文转发')]
+AttributeError: 'NoneType' object has no attribute 'rfind'
+2022-06-14 16:25:35,182 - spider.py - INFO - ------------------------------已获取()的第4页微博------------------------------
+2022-06-14 16:25:35,966 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 16:25:35,966 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 16:25:35,967 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 16:25:35,967 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 16:25:35,967 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 16:25:35,967 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 16:25:35,967 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 16:25:36,801 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 16:25:36,801 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 16:25:36,802 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 16:25:36,802 - spider.py - INFO - ------------------------------已获取()的第5页微博------------------------------
+2022-06-14 16:25:47,205 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 16:25:47,205 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 16:25:47,205 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 16:25:47,205 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 16:25:47,205 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 16:25:47,206 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 16:25:47,206 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 16:25:47,206 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 16:25:47,206 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 16:25:47,206 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 16:25:47,206 - spider.py - INFO - ------------------------------已获取()的第6页微博------------------------------
+2022-06-14 16:25:47,641 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 16:25:47,641 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 16:25:47,642 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 16:25:47,642 - spider.py - INFO - ------------------------------已获取()的第7页微博------------------------------
+2022-06-14 16:25:47,642 - spider.py - INFO - 共爬取14条微博
+2022-06-14 16:25:47,642 - spider.py - INFO - 信息抓取完毕
+2022-06-14 16:25:47,642 - spider.py - INFO - ****************************************************************************************************
+2022-06-14 16:29:35,004 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 16:29:35,004 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 16:29:35,004 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 16:29:35,004 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 16:29:35,004 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 16:29:35,005 - spider.py - INFO - ------------------------------已获取()的第1页微博------------------------------
+2022-06-14 16:29:35,005 - spider.py - INFO - 共爬取2条微博
+2022-06-14 16:29:35,005 - spider.py - INFO - 信息抓取完毕
+2022-06-14 16:29:35,005 - spider.py - INFO - ****************************************************************************************************
+2022-06-14 16:45:33,477 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 16:45:33,477 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 16:45:33,478 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 16:45:33,478 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 16:45:33,478 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 16:45:33,478 - spider.py - INFO - ------------------------------已获取()的第1页微博------------------------------
+2022-06-14 16:45:33,478 - spider.py - INFO - 共爬取2条微博
+2022-06-14 16:45:33,478 - spider.py - INFO - 信息抓取完毕
+2022-06-14 16:45:33,478 - spider.py - INFO - ****************************************************************************************************
+2022-06-14 16:47:24,402 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 16:47:24,402 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 16:47:24,402 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 16:47:24,402 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 16:47:24,403 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 16:47:24,403 - spider.py - INFO - ------------------------------已获取()的第1页微博------------------------------
+2022-06-14 16:47:24,403 - spider.py - INFO - 共爬取2条微博
+2022-06-14 16:47:24,403 - spider.py - INFO - 信息抓取完毕
+2022-06-14 16:47:24,403 - spider.py - INFO - ****************************************************************************************************
+2022-06-14 16:49:42,309 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 16:49:42,310 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 16:49:42,310 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 16:49:42,310 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 16:49:42,310 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 16:49:42,310 - spider.py - INFO - ------------------------------已获取()的第1页微博------------------------------
+2022-06-14 16:49:42,311 - spider.py - INFO - 共爬取2条微博
+2022-06-14 16:49:42,311 - spider.py - INFO - 信息抓取完毕
+2022-06-14 16:49:42,311 - spider.py - INFO - ****************************************************************************************************
+2022-06-14 16:52:06,694 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 16:52:06,694 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 16:52:06,694 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 16:52:06,695 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 16:52:06,695 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 16:52:06,695 - spider.py - INFO - ------------------------------已获取()的第1页微博------------------------------
+2022-06-14 16:52:06,695 - spider.py - INFO - 共爬取2条微博
+2022-06-14 16:52:06,695 - spider.py - INFO - 信息抓取完毕
+2022-06-14 16:52:06,695 - spider.py - INFO - ****************************************************************************************************
+2022-06-14 16:53:08,792 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 16:53:08,792 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 16:53:08,792 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 16:53:08,793 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 16:53:08,793 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 16:53:08,793 - spider.py - INFO - ------------------------------已获取()的第1页微博------------------------------
+2022-06-14 16:53:08,793 - spider.py - INFO - 共爬取2条微博
+2022-06-14 16:53:08,793 - spider.py - INFO - 信息抓取完毕
+2022-06-14 16:53:08,793 - spider.py - INFO - ****************************************************************************************************
+2022-06-14 16:53:56,294 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 16:53:56,295 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 16:53:56,295 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 16:53:56,295 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 16:53:56,295 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 16:53:56,295 - spider.py - INFO - ------------------------------已获取()的第1页微博------------------------------
+2022-06-14 16:53:56,296 - spider.py - INFO - 共爬取2条微博
+2022-06-14 16:53:56,296 - spider.py - INFO - 信息抓取完毕
+2022-06-14 16:53:56,296 - spider.py - INFO - ****************************************************************************************************
+2022-06-14 20:01:58,087 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 20:01:58,087 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 20:01:58,087 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 20:01:58,087 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 20:01:58,762 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 20:01:58,763 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 20:01:58,764 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 20:01:58,764 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 20:01:58,764 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 20:01:58,765 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 20:01:58,765 - spider.py - INFO - ------------------------------已获取()的第1页微博------------------------------
+2022-06-14 20:01:59,014 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 20:01:59,014 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 20:01:59,014 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 20:01:59,014 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 20:01:59,015 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 20:01:59,015 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 20:01:59,015 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 20:01:59,015 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 20:01:59,015 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 20:01:59,015 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 20:01:59,016 - spider.py - INFO - ------------------------------已获取()的第2页微博------------------------------
+2022-06-14 20:01:59,575 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 20:01:59,575 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 20:01:59,575 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 20:01:59,575 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 20:01:59,575 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 20:01:59,576 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 20:01:59,576 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 20:01:59,576 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 20:01:59,576 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 20:01:59,576 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 20:01:59,577 - spider.py - INFO - ------------------------------已获取()的第3页微博------------------------------
+2022-06-14 20:01:59,879 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 20:01:59,879 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 20:01:59,879 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 20:01:59,880 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 20:01:59,880 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 20:01:59,880 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 20:01:59,880 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 20:01:59,880 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 20:01:59,880 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 20:02:00,305 - comment_parser.py - ERROR - 网络出错
+Traceback (most recent call last):
+  File "D:\CreditProject\web_platform\scrawl\test_spider\parser\comment_parser.py", line 28, in get_long_weibo
+    info = self.selector.xpath("//div[@class='c']")[1]
+IndexError: list index out of range
+2022-06-14 20:02:00,312 - comment_parser.py - ERROR - 'NoneType' object has no attribute 'rfind'
+Traceback (most recent call last):
+  File "D:\CreditProject\web_platform\scrawl\test_spider\parser\comment_parser.py", line 43, in get_long_retweet
+    weibo_content = wb_content[:wb_content.rfind(u'原文转发')]
+AttributeError: 'NoneType' object has no attribute 'rfind'
+2022-06-14 20:02:00,313 - spider.py - INFO - ------------------------------已获取()的第4页微博------------------------------
+2022-06-14 20:02:06,627 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 20:02:06,628 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 20:02:06,628 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 20:02:06,628 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 20:02:06,628 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 20:02:06,628 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 20:02:06,629 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 20:02:07,330 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 20:02:07,330 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 20:02:07,330 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 20:02:07,331 - spider.py - INFO - ------------------------------已获取()的第5页微博------------------------------
+2022-06-14 20:02:07,735 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 20:02:07,735 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 20:02:07,736 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 20:02:07,736 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 20:02:07,736 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 20:02:07,736 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 20:02:07,736 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 20:02:07,737 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 20:02:07,737 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 20:02:07,737 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 20:02:07,737 - spider.py - INFO - ------------------------------已获取()的第6页微博------------------------------
+2022-06-14 20:02:08,057 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 20:02:08,058 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 20:02:08,058 - page_parser.py - INFO - ----------------------------------------------------------------------------------------------------
+2022-06-14 20:02:08,058 - spider.py - INFO - ------------------------------已获取()的第7页微博------------------------------
+2022-06-14 20:02:08,058 - spider.py - INFO - 共爬取14条微博
+2022-06-14 20:02:08,058 - spider.py - INFO - 信息抓取完毕
+2022-06-14 20:02:08,058 - spider.py - INFO - ****************************************************************************************************
+2022-06-15 10:12:29,863 - _internal.py - INFO -  * Restarting with stat
+2022-06-15 10:12:41,968 - _internal.py - WARNING -  * Debugger is active!
+2022-06-15 10:12:41,984 - _internal.py - INFO -  * Debugger PIN: 658-840-805
+2022-06-15 10:12:42,418 - _internal.py - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-06-15 10:12:47,162 - _internal.py - INFO - 127.0.0.1 - - [15/Jun/2022 10:12:47] "GET / HTTP/1.1" 200 -
+2022-06-15 10:12:47,212 - _internal.py - INFO - 127.0.0.1 - - [15/Jun/2022 10:12:47] "GET /static/css/app.f9dea87b.css HTTP/1.1" 200 -
+2022-06-15 10:12:47,215 - _internal.py - INFO - 127.0.0.1 - - [15/Jun/2022 10:12:47] "GET /static/css/chunk-libs.3dfb7769.css HTTP/1.1" 200 -
+2022-06-15 10:12:47,224 - _internal.py - INFO - 127.0.0.1 - - [15/Jun/2022 10:12:47] "GET /static/js/app.9689aa72.js HTTP/1.1" 200 -
+2022-06-15 10:12:47,227 - _internal.py - INFO - 127.0.0.1 - - [15/Jun/2022 10:12:47] "GET /static/js/chunk-elementUI.264d21be.js HTTP/1.1" 200 -
+2022-06-15 10:12:47,229 - _internal.py - INFO - 127.0.0.1 - - [15/Jun/2022 10:12:47] "GET /static/js/chunk-libs.a8b242f7.js HTTP/1.1" 200 -
+2022-06-15 10:12:47,558 - _internal.py - INFO - 127.0.0.1 - - [15/Jun/2022 10:12:47] "GET /static/css/chunk-6ec7c010.6874bb5f.css HTTP/1.1" 200 -
+2022-06-15 10:12:47,560 - _internal.py - INFO - 127.0.0.1 - - [15/Jun/2022 10:12:47] "GET /static/js/chunk-6ec7c010.4a310bd5.js HTTP/1.1" 200 -
+2022-06-15 10:12:47,648 - _internal.py - INFO - 127.0.0.1 - - [15/Jun/2022 10:12:47] "GET /favicon.ico HTTP/1.1" 200 -
+2022-06-15 10:12:49,185 - _internal.py - INFO - 127.0.0.1 - - [15/Jun/2022 10:12:49] "GET /static/fonts/element-icons.535877f5.woff HTTP/1.1" 200 -
+2022-06-15 10:12:49,317 - _internal.py - INFO - 127.0.0.1 - - [15/Jun/2022 10:12:49] "GET /static/css/chunk-15a7d050.b972bb9f.css HTTP/1.1" 200 -
+2022-06-15 10:12:49,318 - _internal.py - INFO - 127.0.0.1 - - [15/Jun/2022 10:12:49] "GET /static/js/chunk-9e9c9b90.5c5cdf13.js HTTP/1.1" 200 -
+2022-06-15 10:12:49,319 - _internal.py - INFO - 127.0.0.1 - - [15/Jun/2022 10:12:49] "GET /static/js/chunk-15a7d050.6a9e6db9.js HTTP/1.1" 200 -
+2022-06-15 10:12:49,478 - _internal.py - INFO - 127.0.0.1 - - [15/Jun/2022 10:12:49] "GET /static/js/chunk-107fdb58.bb729d73.js HTTP/1.1" 200 -
+2022-06-15 10:12:49,484 - _internal.py - INFO - 127.0.0.1 - - [15/Jun/2022 10:12:49] "[33mGET /static/pictures/bjtu.jpeg?imageView2/1/w/80/h/80 HTTP/1.1[0m" 404 -
+2022-06-15 10:12:49,488 - _internal.py - INFO - 127.0.0.1 - - [15/Jun/2022 10:12:49] "GET /getBarChart?currentApp=网易云&strId= HTTP/1.1" 200 -
+2022-06-15 10:12:49,490 - _internal.py - INFO - 127.0.0.1 - - [15/Jun/2022 10:12:49] "GET /getRateChart?currentApp=网易云&strId= HTTP/1.1" 200 -
+2022-06-15 10:12:49,557 - _internal.py - INFO - 127.0.0.1 - - [15/Jun/2022 10:12:49] "[35m[1mGET /getRelChart?currentApp=网易云&strId= HTTP/1.1[0m" 500 -
+2022-06-15 10:12:49,626 - _internal.py - INFO - 127.0.0.1 - - [15/Jun/2022 10:12:49] "GET /wordCloud?currentApp=网易云&strId= HTTP/1.1" 200 -
+2022-06-15 10:13:41,621 - _internal.py - INFO - 127.0.0.1 - - [15/Jun/2022 10:13:41] "GET /searchId?currentApp=网易云&strId=1 HTTP/1.1" 200 -
+2022-06-15 10:13:43,918 - _internal.py - INFO - 127.0.0.1 - - [15/Jun/2022 10:13:43] "GET /getBarChart?currentApp=网易云&strId=124743484 HTTP/1.1" 200 -
+2022-06-15 10:13:43,919 - _internal.py - INFO - 127.0.0.1 - - [15/Jun/2022 10:13:43] "GET /getRateChart?currentApp=网易云&strId=124743484 HTTP/1.1" 200 -
+2022-06-15 10:13:43,921 - _internal.py - INFO - 127.0.0.1 - - [15/Jun/2022 10:13:43] "GET /wordCloud?currentApp=网易云&strId=124743484 HTTP/1.1" 200 -
+2022-06-15 10:13:45,031 - _internal.py - INFO - 127.0.0.1 - - [15/Jun/2022 10:13:45] "GET /getRelChart?currentApp=网易云&strId=124743484 HTTP/1.1" 200 -
+2022-06-15 10:15:39,973 - _internal.py - INFO -  * Detected change in 'D:\\CreditProject\\web_platform\\Start.py', reloading
+2022-06-15 10:15:40,103 - _internal.py - INFO -  * Restarting with stat
+2022-06-15 10:15:52,135 - _internal.py - WARNING -  * Debugger is active!
+2022-06-15 10:15:52,143 - _internal.py - INFO -  * Debugger PIN: 658-840-805
+2022-06-15 10:15:52,398 - _internal.py - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-06-15 10:15:52,496 - _internal.py - INFO - 127.0.0.1 - - [15/Jun/2022 10:15:52] "GET / HTTP/1.1" 200 -
+2022-06-15 10:15:52,522 - _internal.py - INFO - 127.0.0.1 - - [15/Jun/2022 10:15:52] "[36mGET /static/css/app.f9dea87b.css HTTP/1.1[0m" 304 -
+2022-06-15 10:15:52,523 - _internal.py - INFO - 127.0.0.1 - - [15/Jun/2022 10:15:52] "[36mGET /static/css/chunk-libs.3dfb7769.css HTTP/1.1[0m" 304 -
+2022-06-15 10:15:52,554 - _internal.py - INFO - 127.0.0.1 - - [15/Jun/2022 10:15:52] "[36mGET /static/js/app.9689aa72.js HTTP/1.1[0m" 304 -
+2022-06-15 10:15:52,556 - _internal.py - INFO - 127.0.0.1 - - [15/Jun/2022 10:15:52] "[36mGET /static/js/chunk-elementUI.264d21be.js HTTP/1.1[0m" 304 -
+2022-06-15 10:15:52,557 - _internal.py - INFO - 127.0.0.1 - - [15/Jun/2022 10:15:52] "[36mGET /static/js/chunk-libs.a8b242f7.js HTTP/1.1[0m" 304 -
+2022-06-15 10:15:52,763 - _internal.py - INFO - 127.0.0.1 - - [15/Jun/2022 10:15:52] "[36mGET /favicon.ico HTTP/1.1[0m" 304 -
+2022-06-15 10:15:52,778 - _internal.py - INFO - 127.0.0.1 - - [15/Jun/2022 10:15:52] "[36mGET /static/css/chunk-15a7d050.b972bb9f.css HTTP/1.1[0m" 304 -
+2022-06-15 10:15:52,779 - _internal.py - INFO - 127.0.0.1 - - [15/Jun/2022 10:15:52] "[36mGET /static/js/chunk-9e9c9b90.5c5cdf13.js HTTP/1.1[0m" 304 -
+2022-06-15 10:15:52,779 - _internal.py - INFO - 127.0.0.1 - - [15/Jun/2022 10:15:52] "[36mGET /static/js/chunk-15a7d050.6a9e6db9.js HTTP/1.1[0m" 304 -
+2022-06-15 10:15:52,961 - _internal.py - INFO - 127.0.0.1 - - [15/Jun/2022 10:15:52] "[36mGET /static/js/chunk-107fdb58.bb729d73.js HTTP/1.1[0m" 304 -
+2022-06-15 10:15:52,967 - _internal.py - INFO - 127.0.0.1 - - [15/Jun/2022 10:15:52] "[33mGET /static/pictures/bjtu.jpeg?imageView2/1/w/80/h/80 HTTP/1.1[0m" 404 -
+2022-06-15 10:15:52,973 - _internal.py - INFO - 127.0.0.1 - - [15/Jun/2022 10:15:52] "GET /getBarChart?currentApp=网易云&strId= HTTP/1.1" 200 -
+2022-06-15 10:15:52,975 - _internal.py - INFO - 127.0.0.1 - - [15/Jun/2022 10:15:52] "GET /getRateChart?currentApp=网易云&strId= HTTP/1.1" 200 -
+2022-06-15 10:15:53,067 - _internal.py - INFO - 127.0.0.1 - - [15/Jun/2022 10:15:53] "[36mGET /static/fonts/element-icons.535877f5.woff HTTP/1.1[0m" 304 -
+2022-06-15 10:15:53,072 - _internal.py - INFO - 127.0.0.1 - - [15/Jun/2022 10:15:53] "[35m[1mGET /getRelChart?currentApp=网易云&strId= HTTP/1.1[0m" 500 -
+2022-06-15 10:15:53,107 - _internal.py - INFO - 127.0.0.1 - - [15/Jun/2022 10:15:53] "GET /wordCloud?currentApp=网易云&strId= HTTP/1.1" 200 -
+2022-06-15 10:15:56,231 - _internal.py - INFO - 127.0.0.1 - - [15/Jun/2022 10:15:56] "GET /searchId?currentApp=网易云&strId=1 HTTP/1.1" 200 -
+2022-06-15 10:15:58,287 - _internal.py - INFO - 127.0.0.1 - - [15/Jun/2022 10:15:58] "GET /getBarChart?currentApp=网易云&strId=124743484 HTTP/1.1" 200 -
+2022-06-15 10:15:58,288 - _internal.py - INFO - 127.0.0.1 - - [15/Jun/2022 10:15:58] "GET /getRateChart?currentApp=网易云&strId=124743484 HTTP/1.1" 200 -
+2022-06-15 10:15:58,289 - _internal.py - INFO - 127.0.0.1 - - [15/Jun/2022 10:15:58] "GET /wordCloud?currentApp=网易云&strId=124743484 HTTP/1.1" 200 -
+2022-06-15 10:15:58,310 - _internal.py - INFO - 127.0.0.1 - - [15/Jun/2022 10:15:58] "GET /getRelChart?currentApp=网易云&strId=124743484 HTTP/1.1" 200 -
+2022-06-15 12:32:59,333 - Writer.py - INFO - 微博属性信息写入完毕！！！

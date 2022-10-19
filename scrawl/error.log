@@ -1,0 +1,206 @@
+2022-04-05 04:28:36,111 - ERROR - spider.py[:379] - Trying to access flag --config_path before flags were parsed.
+Traceback (most recent call last):
+  File "D:\ProgrammingSpace\Python\scrawl\test_spider\spider.py", line 371, in main
+    config = _get_config()#获取config.json的设置的参数
+  File "D:\ProgrammingSpace\Python\scrawl\test_spider\spider.py", line 350, in _get_config
+    if FLAGS.config_path:
+  File "D:\Anaconda\envs\pytorch36\lib\site-packages\absl\flags\_flagvalues.py", line 499, in __getattr__
+    raise _exceptions.UnparsedFlagAccessError(error_message)
+absl.flags._exceptions.UnparsedFlagAccessError: Trying to access flag --config_path before flags were parsed.
+2022-04-19 20:59:45,159 - ERROR - spider.py[:214] - list index out of range
+Traceback (most recent call last):
+  File "D:\ProgrammingSpace\Python\scrawl\test_spider\spider.py", line 170, in get_weibo_info
+    self.user_config, page, self.filter).get_one_page(
+  File "D:\ProgrammingSpace\Python\scrawl\test_spider\parser\page_parser.py", line 51, in __init__
+    is_exist = info[0].xpath("div/span[@class='ctt']")
+IndexError: list index out of range
+2022-06-14 20:32:30,665 - ERROR - spider.py[:382] - Trying to access flag --config_path before flags were parsed.
+Traceback (most recent call last):
+  File "D:\CreditProject\web_platform\scrawl\test_spider\spider.py", line 371, in main
+    config = _get_config()#获取config.json的设置的参数
+  File "D:\CreditProject\web_platform\scrawl\test_spider\spider.py", line 350, in _get_config
+    if FLAGS.config_path:
+  File "D:\Anaconda\envs\pytorch36\lib\site-packages\absl\flags\_flagvalues.py", line 499, in __getattr__
+    raise _exceptions.UnparsedFlagAccessError(error_message)
+absl.flags._exceptions.UnparsedFlagAccessError: Trying to access flag --config_path before flags were parsed.
+2022-06-14 20:38:38,277 - ERROR - spider.py[:382] - Trying to access flag --config_path before flags were parsed.
+Traceback (most recent call last):
+  File "D:\CreditProject\web_platform\scrawl\test_spider\spider.py", line 371, in main
+    config = _get_config()#获取config.json的设置的参数
+  File "D:\CreditProject\web_platform\scrawl\test_spider\spider.py", line 350, in _get_config
+    if FLAGS.config_path:
+  File "D:\Anaconda\envs\pytorch36\lib\site-packages\absl\flags\_flagvalues.py", line 499, in __getattr__
+    raise _exceptions.UnparsedFlagAccessError(error_message)
+absl.flags._exceptions.UnparsedFlagAccessError: Trying to access flag --config_path before flags were parsed.
+2022-06-15 09:24:41,568 - ERROR - spider.py[:382] - Trying to access flag --config_path before flags were parsed.
+Traceback (most recent call last):
+  File "D:\CreditProject\web_platform\scrawl\test_spider\spider.py", line 371, in main
+    config = _get_config()#获取config.json的设置的参数
+  File "D:\CreditProject\web_platform\scrawl\test_spider\spider.py", line 350, in _get_config
+    if FLAGS.config_path:
+  File "D:\Anaconda\envs\pytorch36\lib\site-packages\absl\flags\_flagvalues.py", line 499, in __getattr__
+    raise _exceptions.UnparsedFlagAccessError(error_message)
+absl.flags._exceptions.UnparsedFlagAccessError: Trying to access flag --config_path before flags were parsed.
+2022-06-15 09:25:16,874 - ERROR - spider.py[:382] - name 'idx' is not defined
+Traceback (most recent call last):
+  File "D:\CreditProject\web_platform\scrawl\test_spider\spider.py", line 379, in main
+    print(idx,"测试一下")
+NameError: name 'idx' is not defined
+2022-06-15 14:05:11,187 - ERROR - comment_parser.py[:37] - 网络出错
+Traceback (most recent call last):
+  File "D:\CreditProject\web_platform\scrawl\test_spider\parser\comment_parser.py", line 28, in get_long_weibo
+    info = self.selector.xpath("//div[@class='c']")[1]
+IndexError: list index out of range
+2022-06-15 14:05:11,188 - ERROR - comment_parser.py[:46] - 'NoneType' object has no attribute 'rfind'
+Traceback (most recent call last):
+  File "D:\CreditProject\web_platform\scrawl\test_spider\parser\comment_parser.py", line 43, in get_long_retweet
+    weibo_content = wb_content[:wb_content.rfind(u'原文转发')]
+AttributeError: 'NoneType' object has no attribute 'rfind'
+2022-06-15 14:16:44,320 - ERROR - comment_parser.py[:37] - 网络出错
+Traceback (most recent call last):
+  File "D:\CreditProject\web_platform\scrawl\test_spider\parser\comment_parser.py", line 28, in get_long_weibo
+    info = self.selector.xpath("//div[@class='c']")[1]
+IndexError: list index out of range
+2022-06-15 14:16:44,321 - ERROR - comment_parser.py[:46] - 'NoneType' object has no attribute 'rfind'
+Traceback (most recent call last):
+  File "D:\CreditProject\web_platform\scrawl\test_spider\parser\comment_parser.py", line 43, in get_long_retweet
+    weibo_content = wb_content[:wb_content.rfind(u'原文转发')]
+AttributeError: 'NoneType' object has no attribute 'rfind'
+2022-06-15 14:16:53,266 - ERROR - spider.py[:390] - 'dict_keys' object does not support indexing
+Traceback (most recent call last):
+  File "D:\CreditProject\web_platform\scrawl\test_spider\spider.py", line 382, in main
+    if post.keys()[0] == '原创微博':
+TypeError: 'dict_keys' object does not support indexing
+2022-06-15 14:18:52,071 - ERROR - comment_parser.py[:37] - 网络出错
+Traceback (most recent call last):
+  File "D:\CreditProject\web_platform\scrawl\test_spider\parser\comment_parser.py", line 28, in get_long_weibo
+    info = self.selector.xpath("//div[@class='c']")[1]
+IndexError: list index out of range
+2022-06-15 14:18:52,072 - ERROR - comment_parser.py[:46] - 'NoneType' object has no attribute 'rfind'
+Traceback (most recent call last):
+  File "D:\CreditProject\web_platform\scrawl\test_spider\parser\comment_parser.py", line 43, in get_long_retweet
+    weibo_content = wb_content[:wb_content.rfind(u'原文转发')]
+AttributeError: 'NoneType' object has no attribute 'rfind'
+2022-06-15 14:19:03,794 - ERROR - spider.py[:390] - 'dict_values' object does not support indexing
+Traceback (most recent call last):
+  File "D:\CreditProject\web_platform\scrawl\test_spider\spider.py", line 383, in main
+    original_post += post.values()[0]
+TypeError: 'dict_values' object does not support indexing
+2022-06-15 14:19:43,678 - ERROR - comment_parser.py[:37] - 网络出错
+Traceback (most recent call last):
+  File "D:\CreditProject\web_platform\scrawl\test_spider\parser\comment_parser.py", line 28, in get_long_weibo
+    info = self.selector.xpath("//div[@class='c']")[1]
+IndexError: list index out of range
+2022-06-15 14:19:43,678 - ERROR - comment_parser.py[:46] - 'NoneType' object has no attribute 'rfind'
+Traceback (most recent call last):
+  File "D:\CreditProject\web_platform\scrawl\test_spider\parser\comment_parser.py", line 43, in get_long_retweet
+    weibo_content = wb_content[:wb_content.rfind(u'原文转发')]
+AttributeError: 'NoneType' object has no attribute 'rfind'
+2022-06-15 14:21:37,047 - ERROR - comment_parser.py[:37] - 网络出错
+Traceback (most recent call last):
+  File "D:\CreditProject\web_platform\scrawl\test_spider\parser\comment_parser.py", line 28, in get_long_weibo
+    info = self.selector.xpath("//div[@class='c']")[1]
+IndexError: list index out of range
+2022-06-15 14:21:37,048 - ERROR - comment_parser.py[:46] - 'NoneType' object has no attribute 'rfind'
+Traceback (most recent call last):
+  File "D:\CreditProject\web_platform\scrawl\test_spider\parser\comment_parser.py", line 43, in get_long_retweet
+    weibo_content = wb_content[:wb_content.rfind(u'原文转发')]
+AttributeError: 'NoneType' object has no attribute 'rfind'
+2022-06-15 14:22:15,400 - ERROR - spider.py[:214] - list index out of range
+Traceback (most recent call last):
+  File "D:\CreditProject\web_platform\scrawl\test_spider\spider.py", line 170, in get_weibo_info
+    self.user_config, page, self.filter).get_one_page(
+  File "D:\CreditProject\web_platform\scrawl\test_spider\parser\page_parser.py", line 51, in __init__
+    is_exist = info[0].xpath("div/span[@class='ctt']")
+IndexError: list index out of range
+2022-06-15 14:25:03,598 - ERROR - comment_parser.py[:37] - 网络出错
+Traceback (most recent call last):
+  File "D:\CreditProject\web_platform\scrawl\test_spider\parser\comment_parser.py", line 28, in get_long_weibo
+    info = self.selector.xpath("//div[@class='c']")[1]
+IndexError: list index out of range
+2022-06-15 14:25:03,599 - ERROR - comment_parser.py[:46] - 'NoneType' object has no attribute 'rfind'
+Traceback (most recent call last):
+  File "D:\CreditProject\web_platform\scrawl\test_spider\parser\comment_parser.py", line 43, in get_long_retweet
+    weibo_content = wb_content[:wb_content.rfind(u'原文转发')]
+AttributeError: 'NoneType' object has no attribute 'rfind'
+2022-06-15 14:34:02,376 - ERROR - comment_parser.py[:37] - 网络出错
+Traceback (most recent call last):
+  File "D:\CreditProject\web_platform\scrawl\test_spider\parser\comment_parser.py", line 28, in get_long_weibo
+    info = self.selector.xpath("//div[@class='c']")[1]
+IndexError: list index out of range
+2022-06-15 14:34:02,377 - ERROR - comment_parser.py[:46] - 'NoneType' object has no attribute 'rfind'
+Traceback (most recent call last):
+  File "D:\CreditProject\web_platform\scrawl\test_spider\parser\comment_parser.py", line 43, in get_long_retweet
+    weibo_content = wb_content[:wb_content.rfind(u'原文转发')]
+AttributeError: 'NoneType' object has no attribute 'rfind'
+2022-06-15 14:38:11,332 - ERROR - comment_parser.py[:37] - 网络出错
+Traceback (most recent call last):
+  File "D:\CreditProject\web_platform\scrawl\test_spider\parser\comment_parser.py", line 28, in get_long_weibo
+    info = self.selector.xpath("//div[@class='c']")[1]
+IndexError: list index out of range
+2022-06-15 14:38:11,333 - ERROR - comment_parser.py[:46] - 'NoneType' object has no attribute 'rfind'
+Traceback (most recent call last):
+  File "D:\CreditProject\web_platform\scrawl\test_spider\parser\comment_parser.py", line 43, in get_long_retweet
+    weibo_content = wb_content[:wb_content.rfind(u'原文转发')]
+AttributeError: 'NoneType' object has no attribute 'rfind'
+2022-06-15 14:40:20,794 - ERROR - comment_parser.py[:37] - 网络出错
+Traceback (most recent call last):
+  File "D:\CreditProject\web_platform\scrawl\test_spider\parser\comment_parser.py", line 28, in get_long_weibo
+    info = self.selector.xpath("//div[@class='c']")[1]
+IndexError: list index out of range
+2022-06-15 14:40:20,794 - ERROR - comment_parser.py[:46] - 'NoneType' object has no attribute 'rfind'
+Traceback (most recent call last):
+  File "D:\CreditProject\web_platform\scrawl\test_spider\parser\comment_parser.py", line 43, in get_long_retweet
+    weibo_content = wb_content[:wb_content.rfind(u'原文转发')]
+AttributeError: 'NoneType' object has no attribute 'rfind'
+2022-06-15 14:41:10,455 - ERROR - comment_parser.py[:37] - 网络出错
+Traceback (most recent call last):
+  File "D:\CreditProject\web_platform\scrawl\test_spider\parser\comment_parser.py", line 28, in get_long_weibo
+    info = self.selector.xpath("//div[@class='c']")[1]
+IndexError: list index out of range
+2022-06-15 14:41:10,455 - ERROR - comment_parser.py[:46] - 'NoneType' object has no attribute 'rfind'
+Traceback (most recent call last):
+  File "D:\CreditProject\web_platform\scrawl\test_spider\parser\comment_parser.py", line 43, in get_long_retweet
+    weibo_content = wb_content[:wb_content.rfind(u'原文转发')]
+AttributeError: 'NoneType' object has no attribute 'rfind'
+2022-06-15 14:41:59,347 - ERROR - comment_parser.py[:37] - 网络出错
+Traceback (most recent call last):
+  File "D:\CreditProject\web_platform\scrawl\test_spider\parser\comment_parser.py", line 28, in get_long_weibo
+    info = self.selector.xpath("//div[@class='c']")[1]
+IndexError: list index out of range
+2022-06-15 14:41:59,347 - ERROR - comment_parser.py[:46] - 'NoneType' object has no attribute 'rfind'
+Traceback (most recent call last):
+  File "D:\CreditProject\web_platform\scrawl\test_spider\parser\comment_parser.py", line 43, in get_long_retweet
+    weibo_content = wb_content[:wb_content.rfind(u'原文转发')]
+AttributeError: 'NoneType' object has no attribute 'rfind'
+2022-06-15 14:43:17,559 - ERROR - comment_parser.py[:37] - 网络出错
+Traceback (most recent call last):
+  File "D:\CreditProject\web_platform\scrawl\test_spider\parser\comment_parser.py", line 28, in get_long_weibo
+    info = self.selector.xpath("//div[@class='c']")[1]
+IndexError: list index out of range
+2022-06-15 14:43:17,560 - ERROR - comment_parser.py[:46] - 'NoneType' object has no attribute 'rfind'
+Traceback (most recent call last):
+  File "D:\CreditProject\web_platform\scrawl\test_spider\parser\comment_parser.py", line 43, in get_long_retweet
+    weibo_content = wb_content[:wb_content.rfind(u'原文转发')]
+AttributeError: 'NoneType' object has no attribute 'rfind'
+2022-06-15 14:46:36,788 - ERROR - comment_parser.py[:37] - 网络出错
+Traceback (most recent call last):
+  File "D:\CreditProject\web_platform\scrawl\test_spider\parser\comment_parser.py", line 28, in get_long_weibo
+    info = self.selector.xpath("//div[@class='c']")[1]
+IndexError: list index out of range
+2022-06-15 14:46:36,789 - ERROR - comment_parser.py[:46] - 'NoneType' object has no attribute 'rfind'
+Traceback (most recent call last):
+  File "D:\CreditProject\web_platform\scrawl\test_spider\parser\comment_parser.py", line 43, in get_long_retweet
+    weibo_content = wb_content[:wb_content.rfind(u'原文转发')]
+AttributeError: 'NoneType' object has no attribute 'rfind'
+2022-06-15 14:56:49,968 - ERROR - spider.py[:402] - (1264, "Out of range value for column '用户ID' at row 1")
+Traceback (most recent call last):
+  File "D:\CreditProject\web_platform\scrawl\test_spider\spider.py", line 397, in main
+    cursor.execute(sqlStr)
+  File "D:\Anaconda\envs\pytorch36\lib\site-packages\MySQLdb\cursors.py", line 209, in execute
+    res = self._query(query)
+  File "D:\Anaconda\envs\pytorch36\lib\site-packages\MySQLdb\cursors.py", line 315, in _query
+    db.query(q)
+  File "D:\Anaconda\envs\pytorch36\lib\site-packages\MySQLdb\connections.py", line 239, in query
+    _mysql.connection.query(self, query)
+MySQLdb._exceptions.DataError: (1264, "Out of range value for column '用户ID' at row 1")

@@ -1,0 +1,224 @@
+2022-04-04 10:56:13,419 - ERROR - spider.py[:282] - 'Spider' object has no attribute 'get_user_info'
+Traceback (most recent call last):
+  File "D:\ProgrammingSpace\Python\网易云爬取处理\test\spider.py", line 260, in get_one_user
+    self.get_user_info(user_config['user_uri'])#获取一个用户的基本信息
+AttributeError: 'Spider' object has no attribute 'get_user_info'
+2022-04-04 10:59:53,696 - ERROR - spider.py[:287] - 'IndexParser' object has no attribute 'get_user'
+Traceback (most recent call last):
+  File "D:\ProgrammingSpace\Python\网易云爬取处理\test\spider.py", line 265, in get_one_user
+    self.get_user_info(user_config['user_uri'])#获取一个用户的基本信息
+  File "D:\ProgrammingSpace\Python\网易云爬取处理\test\spider.py", line 129, in get_user_info
+    self.user = IndexParser(self.cookie, user_uri).get_user()
+AttributeError: 'IndexParser' object has no attribute 'get_user'
+2022-04-04 11:00:29,821 - ERROR - spider.py[:287] - 'Spider' object has no attribute 'get_user_info'
+Traceback (most recent call last):
+  File "D:\ProgrammingSpace\Python\网易云爬取处理\test\spider.py", line 265, in get_one_user
+    self.get_user_info(user_config['user_uri'])#获取一个用户的基本信息
+AttributeError: 'Spider' object has no attribute 'get_user_info'
+2022-04-04 11:11:38,576 - ERROR - spider.py[:287] - cannot import name 'TxtWriter'
+Traceback (most recent call last):
+  File "D:\ProgrammingSpace\Python\网易云爬取处理\test\spider.py", line 269, in get_one_user
+    self.initialize_info(user_config)#初始化用户的配置
+  File "D:\ProgrammingSpace\Python\网易云爬取处理\test\spider.py", line 217, in initialize_info
+    from .writer import TxtWriter
+ImportError: cannot import name 'TxtWriter'
+2022-04-04 11:14:00,361 - ERROR - spider.py[:287] - 'Spider' object has no attribute '_get_filepath'
+Traceback (most recent call last):
+  File "D:\ProgrammingSpace\Python\网易云爬取处理\test\spider.py", line 269, in get_one_user
+    self.initialize_info(user_config)#初始化用户的配置
+  File "D:\ProgrammingSpace\Python\网易云爬取处理\test\spider.py", line 220, in initialize_info
+    TXTWriter(self._get_filepath('txt'), self.filter))
+AttributeError: 'Spider' object has no attribute '_get_filepath'
+2022-04-04 11:14:13,261 - ERROR - spider.py[:287] - 'Spider' object has no attribute '_get_filepath'
+Traceback (most recent call last):
+  File "D:\ProgrammingSpace\Python\网易云爬取处理\test\spider.py", line 269, in get_one_user
+    self.initialize_info(user_config)#初始化用户的配置
+  File "D:\ProgrammingSpace\Python\网易云爬取处理\test\spider.py", line 220, in initialize_info
+    TXTWriter(self._get_filepath('txt'), self.filter))
+AttributeError: 'Spider' object has no attribute '_get_filepath'
+2022-04-04 11:15:42,846 - ERROR - spider.py[:212] - 'Spider' object has no attribute 'user'
+Traceback (most recent call last):
+  File "D:\ProgrammingSpace\Python\网易云爬取处理\test\spider.py", line 204, in _get_filepath
+    dir_name = self.user.nickname
+AttributeError: 'Spider' object has no attribute 'user'
+2022-04-04 11:15:42,846 - ERROR - spider.py[:300] - Can't instantiate abstract class TXTWriter with abstract methods write_weibo
+Traceback (most recent call last):
+  File "D:\ProgrammingSpace\Python\网易云爬取处理\test\spider.py", line 282, in get_one_user
+    self.initialize_info(user_config)#初始化用户的配置
+  File "D:\ProgrammingSpace\Python\网易云爬取处理\test\spider.py", line 233, in initialize_info
+    TXTWriter(self._get_filepath('txt'), self.filter))
+TypeError: Can't instantiate abstract class TXTWriter with abstract methods write_weibo
+2022-04-04 11:30:39,756 - ERROR - spider.py[:212] - 'Spider' object has no attribute 'user'
+Traceback (most recent call last):
+  File "D:\ProgrammingSpace\Python\网易云爬取处理\test\spider.py", line 204, in _get_filepath
+    dir_name = self.user.nickname
+AttributeError: 'Spider' object has no attribute 'user'
+2022-04-04 11:30:45,117 - ERROR - page_parser.py[:89] - 'PageParser' object has no attribute 'since_date'
+Traceback (most recent call last):
+  File "D:\ProgrammingSpace\Python\网易云爬取处理\test\parser\page_parser.py", line 69, in get_one_page
+    since_date = datetime_util.str_to_time(self.since_date)
+AttributeError: 'PageParser' object has no attribute 'since_date'
+2022-04-04 11:30:45,117 - ERROR - spider.py[:199] - 'NoneType' object is not iterable
+Traceback (most recent call last):
+  File "D:\ProgrammingSpace\Python\网易云爬取处理\test\spider.py", line 159, in get_weibo_info
+    self.weibo_id_list)  # 获取第page页的全部微博
+TypeError: 'NoneType' object is not iterable
+2022-04-04 11:33:48,290 - ERROR - spider.py[:212] - 'Spider' object has no attribute 'user'
+Traceback (most recent call last):
+  File "D:\ProgrammingSpace\Python\网易云爬取处理\test\spider.py", line 204, in _get_filepath
+    dir_name = self.user.nickname
+AttributeError: 'Spider' object has no attribute 'user'
+2022-04-04 11:33:54,681 - ERROR - page_parser.py[:89] - 'Weibo' object has no attribute 'publish_time'
+Traceback (most recent call last):
+  File "D:\ProgrammingSpace\Python\网易云爬取处理\test\parser\page_parser.py", line 76, in get_one_page
+    weibo.publish_time)
+AttributeError: 'Weibo' object has no attribute 'publish_time'
+2022-04-04 11:33:54,681 - ERROR - spider.py[:199] - 'NoneType' object is not iterable
+Traceback (most recent call last):
+  File "D:\ProgrammingSpace\Python\网易云爬取处理\test\spider.py", line 159, in get_weibo_info
+    self.weibo_id_list)  # 获取第page页的全部微博
+TypeError: 'NoneType' object is not iterable
+2022-04-04 11:52:01,364 - ERROR - spider.py[:213] - 'Spider' object has no attribute 'result_dir_name'
+Traceback (most recent call last):
+  File "D:\ProgrammingSpace\Python\网易云爬取处理\test\spider.py", line 205, in _get_filepath
+    if self.result_dir_name:
+AttributeError: 'Spider' object has no attribute 'result_dir_name'
+2022-04-04 11:52:06,553 - ERROR - page_parser.py[:89] - 'Weibo' object has no attribute 'publish_time'
+Traceback (most recent call last):
+  File "D:\ProgrammingSpace\Python\网易云爬取处理\test\parser\page_parser.py", line 76, in get_one_page
+    weibo.publish_time)
+AttributeError: 'Weibo' object has no attribute 'publish_time'
+2022-04-04 11:52:06,555 - ERROR - spider.py[:199] - 'NoneType' object is not iterable
+Traceback (most recent call last):
+  File "D:\ProgrammingSpace\Python\网易云爬取处理\test\spider.py", line 159, in get_weibo_info
+    self.weibo_id_list)  # 获取第page页的全部微博
+TypeError: 'NoneType' object is not iterable
+2022-04-04 11:53:09,960 - ERROR - page_parser.py[:89] - 'Weibo' object has no attribute 'publish_time'
+Traceback (most recent call last):
+  File "D:\ProgrammingSpace\Python\网易云爬取处理\test\parser\page_parser.py", line 76, in get_one_page
+    weibo.publish_time)
+AttributeError: 'Weibo' object has no attribute 'publish_time'
+2022-04-04 11:53:09,960 - ERROR - spider.py[:201] - 'NoneType' object is not iterable
+Traceback (most recent call last):
+  File "D:\ProgrammingSpace\Python\网易云爬取处理\test\spider.py", line 161, in get_weibo_info
+    self.weibo_id_list)  # 获取第page页的全部微博
+TypeError: 'NoneType' object is not iterable
+2022-04-04 11:54:51,546 - ERROR - page_parser.py[:89] - time data '' does not match format '%Y-%m-%d'
+Traceback (most recent call last):
+  File "D:\ProgrammingSpace\Python\网易云爬取处理\test\parser\page_parser.py", line 76, in get_one_page
+    weibo.publish_time)
+  File "D:\ProgrammingSpace\Python\网易云爬取处理\test\datetime_util.py", line 15, in str_to_time
+    result = datetime.strptime(text, '%Y-%m-%d')
+  File "D:\Anaconda\envs\pytorch36\lib\_strptime.py", line 565, in _strptime_datetime
+    tt, fraction = _strptime(data_string, format)
+  File "D:\Anaconda\envs\pytorch36\lib\_strptime.py", line 362, in _strptime
+    (data_string, format))
+ValueError: time data '' does not match format '%Y-%m-%d'
+2022-04-04 11:54:51,557 - ERROR - spider.py[:201] - 'NoneType' object is not iterable
+Traceback (most recent call last):
+  File "D:\ProgrammingSpace\Python\网易云爬取处理\test\spider.py", line 161, in get_weibo_info
+    self.weibo_id_list)  # 获取第page页的全部微博
+TypeError: 'NoneType' object is not iterable
+2022-04-04 17:24:47,606 - ERROR - page_parser.py[:89] - time data '' does not match format '%Y-%m-%d'
+Traceback (most recent call last):
+  File "D:\ProgrammingSpace\Python\网易云爬取处理\test\parser\page_parser.py", line 76, in get_one_page
+    weibo.publish_time)
+  File "D:\ProgrammingSpace\Python\网易云爬取处理\test\datetime_util.py", line 15, in str_to_time
+    result = datetime.strptime(text, '%Y-%m-%d')
+  File "D:\Anaconda\envs\pytorch36\lib\_strptime.py", line 565, in _strptime_datetime
+    tt, fraction = _strptime(data_string, format)
+  File "D:\Anaconda\envs\pytorch36\lib\_strptime.py", line 362, in _strptime
+    (data_string, format))
+ValueError: time data '' does not match format '%Y-%m-%d'
+2022-04-04 17:24:47,606 - ERROR - spider.py[:201] - 'NoneType' object is not iterable
+Traceback (most recent call last):
+  File "D:\ProgrammingSpace\Python\网易云爬取处理\test\spider.py", line 161, in get_weibo_info
+    self.weibo_id_list)  # 获取第page页的全部微博
+TypeError: 'NoneType' object is not iterable
+2022-04-04 17:36:08,868 - ERROR - page_parser.py[:89] - time data '' does not match format '%Y-%m-%d'
+Traceback (most recent call last):
+  File "D:\ProgrammingSpace\Python\网易云爬取处理\test\parser\page_parser.py", line 76, in get_one_page
+    weibo.publish_time)
+  File "D:\ProgrammingSpace\Python\网易云爬取处理\test\datetime_util.py", line 15, in str_to_time
+    result = datetime.strptime(text, '%Y-%m-%d')
+  File "D:\Anaconda\envs\pytorch36\lib\_strptime.py", line 565, in _strptime_datetime
+    tt, fraction = _strptime(data_string, format)
+  File "D:\Anaconda\envs\pytorch36\lib\_strptime.py", line 362, in _strptime
+    (data_string, format))
+ValueError: time data '' does not match format '%Y-%m-%d'
+2022-04-04 17:36:08,868 - ERROR - spider.py[:201] - 'NoneType' object is not iterable
+Traceback (most recent call last):
+  File "D:\ProgrammingSpace\Python\网易云爬取处理\test\spider.py", line 161, in get_weibo_info
+    self.weibo_id_list)  # 获取第page页的全部微博
+TypeError: 'NoneType' object is not iterable
+2022-04-04 17:44:07,616 - ERROR - page_parser.py[:167] - 'PageParser' object has no attribute 'get_publish_time'
+Traceback (most recent call last):
+  File "D:\ProgrammingSpace\Python\网易云爬取处理\test\parser\page_parser.py", line 165, in get_one_weibo
+    weibo.publish_time = self.get_publish_time(info)
+AttributeError: 'PageParser' object has no attribute 'get_publish_time'
+2022-04-04 17:44:07,616 - ERROR - page_parser.py[:89] - time data '' does not match format '%Y-%m-%d'
+Traceback (most recent call last):
+  File "D:\ProgrammingSpace\Python\网易云爬取处理\test\parser\page_parser.py", line 76, in get_one_page
+    weibo.publish_time)
+  File "D:\ProgrammingSpace\Python\网易云爬取处理\test\datetime_util.py", line 15, in str_to_time
+    result = datetime.strptime(text, '%Y-%m-%d')
+  File "D:\Anaconda\envs\pytorch36\lib\_strptime.py", line 565, in _strptime_datetime
+    tt, fraction = _strptime(data_string, format)
+  File "D:\Anaconda\envs\pytorch36\lib\_strptime.py", line 362, in _strptime
+    (data_string, format))
+ValueError: time data '' does not match format '%Y-%m-%d'
+2022-04-04 17:44:07,626 - ERROR - spider.py[:201] - 'NoneType' object is not iterable
+Traceback (most recent call last):
+  File "D:\ProgrammingSpace\Python\网易云爬取处理\test\spider.py", line 161, in get_weibo_info
+    self.weibo_id_list)  # 获取第page页的全部微博
+TypeError: 'NoneType' object is not iterable
+2022-04-04 17:44:51,036 - ERROR - spider.py[:303] - 'Spider' object has no attribute 'downloaders'
+Traceback (most recent call last):
+  File "D:\ProgrammingSpace\Python\网易云爬取处理\test\spider.py", line 294, in get_one_user
+    self.write_weibo(weibos)
+  File "D:\ProgrammingSpace\Python\网易云爬取处理\test\spider.py", line 121, in write_weibo
+    for downloader in self.downloaders:
+AttributeError: 'Spider' object has no attribute 'downloaders'
+2022-04-04 21:14:56,601 - ERROR - spider.py[:303] - Can't instantiate abstract class TXTWriter with abstract methods write_weibo
+Traceback (most recent call last):
+  File "D:\ProgrammingSpace\Python\网易云爬取处理\test_spider\spider.py", line 285, in get_one_user
+    self.initialize_info(user_config)#初始化用户的配置
+  File "D:\ProgrammingSpace\Python\网易云爬取处理\test_spider\spider.py", line 236, in initialize_info
+    TXTWriter(self._get_filepath('txt'), self.filter))
+TypeError: Can't instantiate abstract class TXTWriter with abstract methods write_weibo
+2022-04-04 21:16:14,549 - ERROR - comment_parser.py[:37] - 网络出错
+Traceback (most recent call last):
+  File "D:\ProgrammingSpace\Python\网易云爬取处理\test_spider\parser\comment_parser.py", line 28, in get_long_weibo
+    info = self.selector.xpath("//div[@class='c']")[1]
+IndexError: list index out of range
+2022-04-04 22:05:08,949 - ERROR - spider.py[:307] - 'Spider' object has no attribute 'downloaders'
+Traceback (most recent call last):
+  File "D:\ProgrammingSpace\Python\网易云爬取处理\test_spider\spider.py", line 298, in get_one_user
+    self.write_weibo(weibos)
+  File "D:\ProgrammingSpace\Python\网易云爬取处理\test_spider\spider.py", line 124, in write_weibo
+    for downloader in self.downloaders:
+AttributeError: 'Spider' object has no attribute 'downloaders'
+2022-04-04 22:39:53,053 - ERROR - spider.py[:205] - 'Spider' object has no attribute 'user_config_file_path'
+Traceback (most recent call last):
+  File "D:/ProgrammingSpace/Python/网易云爬取处理/test_spider/spider.py", line 197, in get_weibo_info
+    if self.user_config_file_path or FLAGS.u:
+AttributeError: 'Spider' object has no attribute 'user_config_file_path'
+2022-04-05 03:34:58,669 - ERROR - spider.py[:374] - get_weibo_info() takes 1 positional argument but 2 were given
+Traceback (most recent call last):
+  File "D:/ProgrammingSpace/Python/网易云爬取处理/test_spider/spider.py", line 370, in main
+    weibo = wb.get_weibo_info(config)
+TypeError: get_weibo_info() takes 1 positional argument but 2 were given
+2022-04-05 03:37:09,304 - ERROR - spider.py[:374] - get_weibo_info() takes 1 positional argument but 2 were given
+Traceback (most recent call last):
+  File "D:/ProgrammingSpace/Python/网易云爬取处理/test_spider/spider.py", line 370, in main
+    weibo = wb.get_weibo_info(config)
+TypeError: get_weibo_info() takes 1 positional argument but 2 were given
+2022-04-05 04:34:32,879 - ERROR - spider.py[:379] - Trying to access flag --config_path before flags were parsed.
+Traceback (most recent call last):
+  File "D:/ProgrammingSpace/Python/scrawl/test_spider/spider.py", line 371, in main
+    config = _get_config()#获取config.json的设置的参数
+  File "D:/ProgrammingSpace/Python/scrawl/test_spider/spider.py", line 350, in _get_config
+    if FLAGS.config_path:
+  File "D:\Anaconda\envs\pytorch36\lib\site-packages\absl\flags\_flagvalues.py", line 499, in __getattr__
+    raise _exceptions.UnparsedFlagAccessError(error_message)
+absl.flags._exceptions.UnparsedFlagAccessError: Trying to access flag --config_path before flags were parsed.

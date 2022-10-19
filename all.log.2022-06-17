@@ -1,0 +1,38 @@
+2022-06-17 16:27:38,129 - _internal.py - INFO -  * Restarting with stat
+2022-06-17 16:27:51,626 - _internal.py - WARNING -  * Debugger is active!
+2022-06-17 16:27:51,651 - _internal.py - INFO -  * Debugger PIN: 686-855-409
+2022-06-17 16:27:52,480 - _internal.py - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-06-17 16:28:05,300 - _internal.py - INFO - 127.0.0.1 - - [17/Jun/2022 16:28:05] "GET / HTTP/1.1" 200 -
+2022-06-17 16:28:05,372 - _internal.py - INFO - 127.0.0.1 - - [17/Jun/2022 16:28:05] "GET /static/css/app.f9dea87b.css HTTP/1.1" 200 -
+2022-06-17 16:28:05,372 - _internal.py - INFO - 127.0.0.1 - - [17/Jun/2022 16:28:05] "GET /static/css/chunk-libs.3dfb7769.css HTTP/1.1" 200 -
+2022-06-17 16:28:05,372 - _internal.py - INFO - 127.0.0.1 - - [17/Jun/2022 16:28:05] "GET /static/js/app.9689aa72.js HTTP/1.1" 200 -
+2022-06-17 16:28:05,524 - _internal.py - INFO - 127.0.0.1 - - [17/Jun/2022 16:28:05] "GET /static/js/chunk-elementUI.264d21be.js HTTP/1.1" 200 -
+2022-06-17 16:28:05,572 - _internal.py - INFO - 127.0.0.1 - - [17/Jun/2022 16:28:05] "GET /static/js/chunk-libs.a8b242f7.js HTTP/1.1" 200 -
+2022-06-17 16:28:05,939 - _internal.py - INFO - 127.0.0.1 - - [17/Jun/2022 16:28:05] "GET /static/js/chunk-6ec7c010.4a310bd5.js HTTP/1.1" 200 -
+2022-06-17 16:28:05,939 - _internal.py - INFO - 127.0.0.1 - - [17/Jun/2022 16:28:05] "GET /static/css/chunk-6ec7c010.6874bb5f.css HTTP/1.1" 200 -
+2022-06-17 16:28:24,907 - _internal.py - INFO - 127.0.0.1 - - [17/Jun/2022 16:28:24] "GET /static/fonts/element-icons.535877f5.woff HTTP/1.1" 200 -
+2022-06-17 16:28:24,954 - _internal.py - INFO - 127.0.0.1 - - [17/Jun/2022 16:28:24] "GET /static/css/chunk-15a7d050.b972bb9f.css HTTP/1.1" 200 -
+2022-06-17 16:28:24,954 - _internal.py - INFO - 127.0.0.1 - - [17/Jun/2022 16:28:24] "GET /static/js/chunk-9e9c9b90.5c5cdf13.js HTTP/1.1" 200 -
+2022-06-17 16:28:24,969 - _internal.py - INFO - 127.0.0.1 - - [17/Jun/2022 16:28:24] "GET /static/js/chunk-15a7d050.6a9e6db9.js HTTP/1.1" 200 -
+2022-06-17 16:28:25,271 - _internal.py - INFO - 127.0.0.1 - - [17/Jun/2022 16:28:25] "GET /static/js/chunk-107fdb58.bb729d73.js HTTP/1.1" 200 -
+2022-06-17 16:28:25,287 - _internal.py - INFO - 127.0.0.1 - - [17/Jun/2022 16:28:25] "[33mGET /static/pictures/bjtu.jpeg?imageView2/1/w/80/h/80 HTTP/1.1[0m" 404 -
+2022-06-17 16:28:25,295 - _internal.py - INFO - 127.0.0.1 - - [17/Jun/2022 16:28:25] "GET /getBarChart?currentApp=网易云&strId= HTTP/1.1" 200 -
+2022-06-17 16:28:25,295 - _internal.py - INFO - 127.0.0.1 - - [17/Jun/2022 16:28:25] "GET /getRateChart?currentApp=网易云&strId= HTTP/1.1" 200 -
+2022-06-17 16:28:25,351 - _internal.py - INFO - 127.0.0.1 - - [17/Jun/2022 16:28:25] "[35m[1mGET /getRelChart?currentApp=网易云&strId= HTTP/1.1[0m" 500 -
+2022-06-17 16:28:25,607 - _internal.py - INFO - 127.0.0.1 - - [17/Jun/2022 16:28:25] "GET /wordCloud?currentApp=网易云&strId= HTTP/1.1" 200 -
+2022-06-17 16:28:46,235 - _internal.py - INFO - 127.0.0.1 - - [17/Jun/2022 16:28:46] "GET /searchId?currentApp=网易云&strId=1 HTTP/1.1" 200 -
+2022-06-17 16:30:41,177 - _internal.py - INFO - 127.0.0.1 - - [17/Jun/2022 16:30:41] "GET /searchId?currentApp=网易云&strId=2 HTTP/1.1" 200 -
+2022-06-17 16:30:43,873 - _internal.py - INFO - 127.0.0.1 - - [17/Jun/2022 16:30:43] "GET /wordCloud?currentApp=网易云&strId=2141969331 HTTP/1.1" 200 -
+2022-06-17 16:30:43,881 - _internal.py - INFO - 127.0.0.1 - - [17/Jun/2022 16:30:43] "GET /getBarChart?currentApp=网易云&strId=2141969331 HTTP/1.1" 200 -
+2022-06-17 16:30:43,889 - _internal.py - INFO - 127.0.0.1 - - [17/Jun/2022 16:30:43] "GET /getRateChart?currentApp=网易云&strId=2141969331 HTTP/1.1" 200 -
+2022-06-17 16:30:46,155 - _internal.py - INFO - 127.0.0.1 - - [17/Jun/2022 16:30:46] "GET /getRelChart?currentApp=网易云&strId=2141969331 HTTP/1.1" 200 -
+2022-06-17 16:40:58,906 - _internal.py - INFO - 127.0.0.1 - - [17/Jun/2022 16:40:58] "[35m[1mGET /get_1s HTTP/1.1[0m" 500 -
+2022-06-17 16:41:10,197 - _internal.py - INFO - 127.0.0.1 - - [17/Jun/2022 16:41:10] "GET /wordCloud?currentApp=网易云&strId= HTTP/1.1" 200 -
+2022-06-17 16:41:10,197 - _internal.py - INFO - 127.0.0.1 - - [17/Jun/2022 16:41:10] "GET /getBarChart?currentApp=网易云&strId= HTTP/1.1" 200 -
+2022-06-17 16:41:10,205 - _internal.py - INFO - 127.0.0.1 - - [17/Jun/2022 16:41:10] "GET /getRateChart?currentApp=网易云&strId= HTTP/1.1" 200 -
+2022-06-17 16:41:10,267 - _internal.py - INFO - 127.0.0.1 - - [17/Jun/2022 16:41:10] "[35m[1mGET /getRelChart?currentApp=网易云&strId= HTTP/1.1[0m" 500 -
+2022-06-17 16:41:22,283 - _internal.py - INFO - 127.0.0.1 - - [17/Jun/2022 16:41:22] "GET /searchId?currentApp=网易云&strId=2 HTTP/1.1" 200 -
+2022-06-17 16:41:24,882 - _internal.py - INFO - 127.0.0.1 - - [17/Jun/2022 16:41:24] "GET /wordCloud?currentApp=网易云&strId=268530254 HTTP/1.1" 200 -
+2022-06-17 16:41:24,882 - _internal.py - INFO - 127.0.0.1 - - [17/Jun/2022 16:41:24] "GET /getBarChart?currentApp=网易云&strId=268530254 HTTP/1.1" 200 -
+2022-06-17 16:41:24,882 - _internal.py - INFO - 127.0.0.1 - - [17/Jun/2022 16:41:24] "GET /getRateChart?currentApp=网易云&strId=268530254 HTTP/1.1" 200 -
+2022-06-17 16:41:24,914 - _internal.py - INFO - 127.0.0.1 - - [17/Jun/2022 16:41:24] "GET /getRelChart?currentApp=网易云&strId=268530254 HTTP/1.1" 200 -

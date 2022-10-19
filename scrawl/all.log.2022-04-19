@@ -1,0 +1,10 @@
+2022-04-19 20:59:45,159 - spider.py - ERROR - list index out of range
+Traceback (most recent call last):
+  File "D:\ProgrammingSpace\Python\scrawl\test_spider\spider.py", line 170, in get_weibo_info
+    self.user_config, page, self.filter).get_one_page(
+  File "D:\ProgrammingSpace\Python\scrawl\test_spider\parser\page_parser.py", line 51, in __init__
+    is_exist = info[0].xpath("div/span[@class='ctt']")
+IndexError: list index out of range
+2022-04-19 20:59:45,162 - spider.py - INFO - 共爬取0条微博
+2022-04-19 20:59:45,162 - spider.py - INFO - 信息抓取完毕
+2022-04-19 20:59:45,162 - spider.py - INFO - ****************************************************************************************************

@@ -1,0 +1,28 @@
+{
+    "user_id_list": ["6613204920"],
+    "filter": 0,
+    "since_date": "2005-01-01",
+    "end_date": "now",
+    "random_wait_pages": [1, 5],
+    "random_wait_seconds": [6, 10],
+    "global_wait": [[720, 360], [500, 1000]],
+    "write_mode": ["txt"],
+    "pic_download": 0,
+    "video_download": 0,
+	"file_download_timeout": [5, 5, 10],
+	"result_dir_name": 0,
+    "cookie": "_T_WM=acb6810c024b09ea509adee05407aac1; SUB=_2A25PrGrIDeRhGeBM7FcS-S_PyjiIHXVtb3aArDV6PUJbktCOLUujkW1NRNZMBJzPSgKAD-nydwpTSB-omTZ0Uxnn; SUBP=0033WrSXqPxfM725Ws9jqgMF55529P9D9WhVXIH7CyNb__SGJWrYzTAF5NHD95QceoMfe0.pe02XWs4DqcjVi--fi-i8iKn7i--Xi-iWiKyFi--fi-2ciKnEi--NiKn0iKLsSozNSKe4eKepS5tt; SSOLoginState=1655184024",
+    "mysql_config": {
+        "host": "localhost",
+        "port": 3306,
+        "user": "root",
+        "password": "123456",
+        "charset": "utf8mb4"
+    },
+    "kafka_config": {
+        "bootstrap-server": "127.0.0.1:9092",
+        "weibo_topics": ["spider_weibo"],
+        "user_topics": ["spider_weibo"]
+    },
+    "sqlite_config": "weibo.db"
+}
