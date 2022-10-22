@@ -5,7 +5,7 @@ import re
 
 def get_weibo():
     driver.maximize_window()
-    url=r'https://weibo.com/u/3176010690'
+    url=r'https://weibo.com/u/6613204920'
     driver.get(url)
 
     driver.implicitly_wait(30)  # 智能等待元素加载完成

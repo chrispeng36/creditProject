@@ -215,3 +215,6 @@ IndexError: list index out of range
 2022-10-19 18:56:14,042 - WARNING - _internal.py[:225] -  * Debugger is active!
 2022-10-19 19:00:12,599 - WARNING - _internal.py[:225] -  * Debugger is active!
 2022-10-19 21:13:56,017 - WARNING - _internal.py[:225] -  * Debugger is active!
+2022-10-21 15:07:20,154 - WARNING - _internal.py[:225] -  * Debugger is active!
+2022-10-21 15:16:53,800 - WARNING - _internal.py[:225] -  * Debugger is active!
+2022-10-21 15:18:18,442 - WARNING - _internal.py[:225] -  * Debugger is active!

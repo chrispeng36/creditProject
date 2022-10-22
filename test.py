@@ -6,8 +6,26 @@
 # @Blog ：https://chrispeng36.github.io/
 
 
-from scrawl.WeiboScrawl import WeiboScrawl
-weibo = WeiboScrawl()
-weibo = weibo.get_user_posts(6307242122)
+from flask import Flask
+from flask import Blueprint, render_template, request, jsonify
+import re
+import time
+# from GetData import GetData
+import base64
+import MySQLdb
+import random
 
-print(weibo)
+MYSQL_HOST="localhost"
+MYSQL_USERNAME="root"
+MYSQL_PASSWORD="123"
+MYSQL_DATABASE="data11"
+db = MySQLdb.connect(MYSQL_HOST, MYSQL_USERNAME, MYSQL_PASSWORD, MYSQL_DATABASE, charset='utf8')
+
+cursor = db.cursor()
+sqlStr = 'SELECT `网易云发帖` FROM `网易云用户发帖` WHERE `网易云id` = 268530254;'
+
+cursor.execute(sqlStr)
+res = cursor.fetchone()
+
+print(res)
+

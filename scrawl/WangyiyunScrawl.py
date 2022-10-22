@@ -25,7 +25,8 @@ class WangyiyunScrawl():
         if hide == True:
             option.add_argument('--headless')
             option.add_argument('--disable-gpu')
-        self.driver = webdriver.Chrome("D:\\chromeDriver\\chromedriver", chrome_options=option)
+        self.driver = webdriver.Chrome("D:\\chromeDriver2\\chromedriver", chrome_options=option)
+
 
     def get_content(self,url):
         '''
@@ -110,6 +111,7 @@ class WangyiyunScrawl():
 
             except:
                 print('未抓取到数据')
+            next_page_button = driver.find_element_by_id("page")
             if driver.find_element_by_xpath("//a[text()='下一页']") is not None:
                 try:
                     driver.find_element_by_id("page").find_element_by_class_name("js-disabled")
@@ -125,16 +127,19 @@ class WangyiyunScrawl():
                         # 翻到底页去滚动页面，也就是第一页的上一页会出现disabled，要避免这种情况不翻页
                         js = "window.scrollTo(0, document.body.scrollHeight);"
                         driver.execute_script(js)
-                        driver.find_element_by_xpath("//a[text()='下一页']").click()
+                        try:
+                            driver.find_element_by_xpath("//a[text()='下一页']").click()
+                        except:
+                            print("没有分页了！")
+                            flag = False
             else:
                 # 说明没有分页了，可以直接结束
                 flag = False
                 print('当前页面只有一页')
 
-
         sleep(1)
 
-        driver.close()
+        # driver.close()
         fans_or_followsDict.update({id:fans_or_followsList})
         print('爬取结束')
         return fans_or_followsDict
@@ -175,24 +180,68 @@ class WangyiyunScrawl():
         # 需要进指定页面才能获取到cookie,否则会报错
         url = "https://music.163.com/#/user/" + "?id=" + str(id)
         driver = self.get_content(url=url)
+        user_info = None
+        user_name = None
+        user_rank = None
+        user_sex = None
+        user_event = None
+        user_follow = None
+        user_fans = None
+        user_intro = None
+        user_loc = None
+        user_age = None
+        weibo_id = None
         driver.switch_to.frame(driver.find_element_by_id("g_iframe"))
-        user_info = driver.find_element_by_id("head-box")
+        try:
+            user_info = driver.find_element_by_id("head-box")
+        except:
+            print("没有自我信息！")
 
-        user_name = user_info.find_element_by_id("j-name-wrap").find_element_by_class_name('tit').text
-        user_rank = user_info.find_element_by_id("j-name-wrap").find_element_by_class_name('lev').text
-        user_sex = '男' if user_info.find_element_by_id("j-name-wrap").find_element_by_class_name('u-icn2-lev') is not None \
-            else '女'
+        try:
+            user_name = user_info.find_element_by_id("j-name-wrap").find_element_by_class_name('tit').text
+        except:
+            print("没有用户名！")
 
-        user_event = user_info.find_element_by_id("event_count").text
-        user_follow = user_info.find_element_by_id("follow_count").text
-        user_fans = user_info.find_element_by_id("fan_count").text
-        user_intro = user_info.find_element_by_class_name("f-brk").text
-        user_loc = '' if user_info.find_element_by_class_name("inf") is None else \
-            user_info.find_elements_by_class_name("inf")[1].find_elements_by_tag_name('span')[0].text
-        user_loc = user_loc.split('所在地区：')[1]
-        user_age = user_info.find_element_by_id("age").text
-        weibo_id = user_info.find_element_by_class_name("u-logo-s").find_element_by_tag_name('a').get_attribute('href')
-        weibo_id = weibo_id.split('http://weibo.com/u/')[1]
+        try:
+            user_rank = user_info.find_element_by_id("j-name-wrap").find_element_by_class_name('lev').text
+        except:
+            print("没有用户等级！")
+        try:
+            user_sex = '男' if user_info.find_element_by_id("j-name-wrap").find_element_by_class_name('u-icn2-lev') is not None \
+                else '女'
+        except:
+            print("没有性别！")
+        try:
+            user_event = user_info.find_element_by_id("event_count").text
+        except:
+            print("没有用户动态！")
+        try:
+            user_follow = user_info.find_element_by_id("follow_count").text
+        except:
+            print("没有关注信息！")
+        try:
+            user_fans = user_info.find_element_by_id("fan_count").text
+        except:
+            print("没有粉丝信息！")
+        try:
+            user_intro = user_info.find_element_by_class_name("f-brk").text
+        except:
+            print("没有自我介绍！")
+        try:
+            user_loc = '' if user_info.find_element_by_class_name("inf") is None else \
+                user_info.find_elements_by_class_name("inf")[1].find_elements_by_tag_name('span')[0].text
+            user_loc = user_loc.split('所在地区：')[1]
+        except:
+            print("没有位置信息！")
+        try:
+            user_age = user_info.find_element_by_id("age").text
+        except:
+            print("没有生日信息！")
+        try:
+            weibo_id = user_info.find_element_by_class_name("u-logo-s").find_element_by_tag_name('a').get_attribute('href')
+            weibo_id = weibo_id.split('http://weibo.com/u/')[1]
+        except:
+            print("没有微博账号！")
 
         res_dict = {}
         res_dict['user_name'] = user_name
@@ -228,7 +277,7 @@ class WangyiyunScrawl():
         '''
         driver = self.driver
         url = 'https://music.163.com/#/user/event?id=' + str(id)
-        self.get_content(url=url)
+        driver = self.get_content(url=url)
         js = "var q=document.body.scrollTop=10000"
         driver.execute_script(js)#滚动加载页面
         driver.switch_to_frame("contentFrame")#因为有多个frame，定位
@@ -245,6 +294,11 @@ class WangyiyunScrawl():
             print("没有抓取到数据")
         return user_post
 
+    def close(self):
+        self.driver.close()
+
+
+
 
 
 if __name__ == '__main__':
@@ -255,5 +309,6 @@ if __name__ == '__main__':
     # print(dict1)
     # print(dict1.get(1763051697)[0])
     # print(type(dictTemp.get(1763051697)[0]))
-    d = wangyiyun_scrawler.get_user_attributes(1763051697)
+    d = wangyiyun_scrawler.get_fans_followers(8807271,fans_or_follows='follows')
     print(d)
+    url = 'https://music.163.com/#/song?id=411214279'

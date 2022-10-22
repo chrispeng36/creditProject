@@ -19,9 +19,10 @@ from time import sleep
 
 from absl import app, flags
 from tqdm import tqdm
-from test_spider.parser import IndexParser, PageParser
-from test_spider import config_util, datetime_util
-from test_spider.user import User
+from .parser import IndexParser, PageParser
+import config_util
+import datetime_util
+from .user import User
 
 FLAGS = flags.FLAGS
 
@@ -245,11 +246,11 @@ class Spider:
         #
         #     self.writers.append(
         #         CsvWriter(self._get_filepath('csv'), self.filter))
-        if 'txt' in self.write_mode:
-            from test_spider.writer import TXTWriter
-
-            self.writers.append(
-                TXTWriter(self._get_filepath('txt'), self.filter))
+        # if 'txt' in self.write_mode:
+        #     from test_spider.writer import TXTWriter
+        #
+        #     self.writers.append(
+        #         TXTWriter(self._get_filepath('txt'), self.filter))
         # if 'json' in self.write_mode:
         #     from .writer import JsonWriter
         #

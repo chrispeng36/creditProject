@@ -32,7 +32,7 @@ class WeiboScrawl():
         ua = UserAgent()
         self.headers = {
         "User-Agent": 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36',
-        'Cookie': 'PC_TOKEN=e46c84a85b; XSRF-TOKEN=CJeFrTnI1PcMwY3q8rst6GFy; SUB=_2A25Po47MDeRhGeBI6lET8CrFyTyIHXVs2OcErDV8PUNbmtAKLRjVkW9NRrEU1UYwNLZsvOXDl4rPnFWBx78xABbM; SUBP=0033WrSXqPxfM725Ws9jqgMF55529P9D9WhmvAghRvVWRIXwUOCfdA_s5JpX5KzhUgL.FoqceKeEehB4eo52dJLoIp8hIGiDMNWLdJMp1K.4ehe7Sntt; ALF=1686712860; SSOLoginState=1655176860; WBPSESS=39AlmNMpKtW8ntUWMdo1GuC5wsBwdSMqqID5fRsXNLLcY_H9W2LGWPuRU_zcXVcNgIq1lqVnJOOLmxlY17pbXfWE9qeafm5WvBUy0JBXld1O9n--C02VhZkjeEbsv7Wt3MBuMi_HnKXbcGKfV-dbMg=='
+        'Cookie': 'WBPSESS=39AlmNMpKtW8ntUWMdo1GuC5wsBwdSMqqID5fRsXNLLcY_H9W2LGWPuRU_zcXVcNgIq1lqVnJOOLmxlY17pbXb-XMPJDzCnEH4HkDoe7fagkusiql7g1Ty8Nfe3TYXGIaCEm00GO3vU4ADAzwUkQrQ==; PC_TOKEN=4563975f16; SUBP=0033WrSXqPxfM725Ws9jqgMF55529P9D9WhmvAghRvVWRIXwUOCfdA_s5JpX5KMhUgL.FoqceKeEehB4eo52dJLoIp8hIGiDMNWLdJMp1K.4ehe7Sntt; ALF=1697771659; SSOLoginState=1666235659; SCF=AqQxfhgYK1_sW_W7-m64fwfs6UfvVj-7ekmz7reJf36yk4ZKzKKvyqemQd4bk6rIeXX2LggUD6knSGjC7TT2CL4.; SUB=_2A25OVM1bDeRhGeBI6lET8CrFyTyIHXVtI7mTrDV8PUNbmtANLUXmkW9NRrEU1V6QLNFVd_eezTvpcie8Ed3SzcOl; XSRF-TOKEN=BBminx9FcXjGHD2piSGaNOv1'
     }
         hide = True#隐藏浏览器
         option = webdriver.ChromeOptions()
@@ -41,7 +41,7 @@ class WeiboScrawl():
         if hide == True:
             option.add_argument('--headless')
             option.add_argument('--disable-gpu')
-        self.driver = webdriver.Chrome("D:\\chromeDriver\\chromedriver", chrome_options=option)
+        self.driver = webdriver.Chrome("D:\\chromeDriver3\\chromedriver", chrome_options=option)
 
     def get_user_attributes(self, id):
         '''
@@ -77,23 +77,37 @@ class WeiboScrawl():
         #     print(inform.text)
         user_attribute_dict = {}
         user_attribute_list = []
-        user_name = self.driver.find_element_by_class_name("ProfileHeader_h3_2nhjc").text
-        user_attribute_list.append({"user_name": user_name})
+        try:
+            user_name = self.driver.find_element_by_class_name("ProfileHeader_h3_2nhjc").text
+            user_attribute_list.append({"user_name": user_name})
+        except:
+            user_attribute_list.append({"user_name": ''})
         try:
             self.driver.find_element_by_class_name('woo-icon--male')
         except:
             user_sex = '女'
         else:
             user_sex = '男'
+
         user_attribute_list.append({"user_sex": user_sex})
-        user_rank = self.driver.find_element_by_class_name("IconVip_icon_2tjdp").get_attribute("aria-label")
+        try:
+            user_rank = self.driver.find_element_by_class_name("IconVip_icon_2tjdp").get_attribute("aria-label")
+        except:
+            user_rank = ''
         user_attribute_list.append({"user_rank": user_rank})
         # print(user_rank)
-        fans_or_folllow_driver = self.driver.find_element_by_class_name("ProfileHeader_h4_gcwJi"). \
-            find_elements_by_class_name("ProfileHeader_alink_tjHJR")
-        user_fans_count = fans_or_folllow_driver[0].text.split("粉丝")[1]
+        # driver = self.driver.find_element_by_class_name("ProfileHeader_box1_1qC-g")
+        fans_or_folllow_driver = self.driver.find_elements_by_class_name("ProfileHeader_pointer_2yKGQ")
+        try:
+            user_fans_count = fans_or_folllow_driver[0].text.split("粉丝")[1]
+        except:
+            user_fans_count = 0
         user_attribute_list.append({"user_fans_count": user_fans_count})
-        user_following_count = fans_or_folllow_driver[1].text.split('关注')[1]
+        try:
+            user_following_count = fans_or_folllow_driver[1].text.split('关注')[1]
+        except:
+            user_following_count = 0
+
         user_attribute_list.append({"user_following_count": user_following_count})
         try:
             self.driver.find_element_by_class_name("ProfileHeader_con3_Bg19p")
@@ -189,7 +203,7 @@ class WeiboScrawl():
         fans_dict = {}
         fans_list = []
         page = 1
-        while (page < 31):
+        while (page < 10):
             url = 'https://weibo.com/ajax/friendships/friends?relate=fans&page={0}&uid={1}'.format(page, id)
             html_str = requests.get(url, headers=self.headers)  # Get方式获取网页数据
             html_str.encoding = 'utf-8'
@@ -242,13 +256,15 @@ class WeiboScrawl():
         app.run(spider.main)
         # print(type(weibo))
 
+    def close(self):
+        self.driver.close()
 
 
 
 if __name__ == '__main__':
     weiboScrawl = WeiboScrawl()
     print("what")
-    follow = weiboScrawl.get_user_posts(6613204920)
+    follow = weiboScrawl.get_user_following(6613204920)
     print("try again")
     print(follow)
     # print(following_dict)
